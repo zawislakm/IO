@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Przesyłanie pliku CSV</title>
+</head>
+<body>
+
+<input type="file" id="csvFileInput">
+<button onclick="uploadCSV()">Prześlij CSV</button>
+
+<script>
+function uploadCSV() {
+  var fileInput = document.getElementById('csvFileInput');
+  var file = fileInput.files[0];
+
+  if (!file) {
+    alert("Wybierz plik CSV do przesłania.");
+    return;
+  }
+
+  var formData = new FormData();
+  formData.append('csvFile', file);
+
+  fetch('http://127.0.0.1:8000/upload', {
+    method: 'POST',
+    body: formData
+  })
+  .then(response => {
+    if (response.ok) {
+      alert("Plik CSV został pomyślnie przesłany.");
+    } else {
+      alert("Wystąpił błąd podczas przesyłania pliku.");
+    }
+  })
+  .catch(error => {
+    console.error('Błąd:', error);
+    alert("Wystąpił błąd podczas przesyłania pliku.");
+  });
+}
+</script>
+
+</body>
+</html>
