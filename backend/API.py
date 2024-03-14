@@ -5,11 +5,20 @@ import uvicorn
 from fastapi import File, UploadFile, FastAPI, status, HTTPException
 from fastapi.responses import FileResponse
 
+from fastapi.middleware.cors import CORSMiddleware
+
 import Operations as o
 from Models import CSVColumn
 
 app = FastAPI()
-
+# Ustawienie polityki CORS
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Możesz również ustawić konkretną domenę, z której będzie akceptowane żądanie
+    allow_credentials=True,
+    allow_methods=["GET", "POST", "PUT", "DELETE"],
+    allow_headers=["*"],
+)
 
 @app.post('/upload', status_code=status.HTTP_201_CREATED)
 def upload_file(uploaded_file: UploadFile = File(...)) -> dict:
