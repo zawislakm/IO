@@ -10,6 +10,36 @@
 <input type="file" id="csvFileInput">
 <button onclick="uploadCSV()">Prześlij CSV</button>
 <button onclick="downloadCSV()">Pobierz wynik</button>
+
+<ul id="csvHeadersList"></ul>
+
+<h2>Dodaj zmienną</h2>
+
+<form id="variableForm">
+  <label for="variableName">Nazwa zmiennej:</label>
+  <input type="text" id="variableName" name="variableName" required><br><br>
+
+  <label>Zależności:</label>
+  <div id="dataInputs">
+    <div class="data-row">
+      <input type="text" class="data-input" name="firstVariableName" id="firstVariableInput" required>
+      <input type="text" class="data-separator" name="dependencyInput" id="dependencyInput" maxlength="1" required>
+      <input type="text" class="data-input" name="secondVariableName" id="secondVariableInput" required>
+    </div>
+  </div>
+
+  <button type="button" onclick="addDataRow()">Dodaj zależność</button><br>
+
+  <label for="variableValue">Wartość zmiennej:</label>
+  <input type="text" id="variableValue" name="variableValue" required><br>
+  <button type="button" onclick="addVariableValue()">Dodaj wartośc</button><br>
+
+  <label for="defaultVariableValue">Wartość defaultowa:</label>
+  <input type="text" id="defaultVariableValue" name="defaultVariableValue" required><br>
+
+  <button type="button" onclick="addVariable()">Dodaj zmienną</button>
+</form>
+
 <script src="script.js"></script>
 </body>
 </html>
