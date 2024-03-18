@@ -4,6 +4,24 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Przesyłanie pliku CSV</title>
+<style>
+  #tableContainer {
+    max-height: 400px;
+    overflow: auto;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+</style>
 </head>
 <body>
 
@@ -12,6 +30,29 @@
 <button onclick="downloadCSV()">Pobierz wynik</button>
 
 <ul id="csvHeadersList"></ul>
+
+<h2>Zawartość pliku CSV</h2>
+
+<div id="tableContainer"> 
+  <table id="csvTable">
+  </table>
+</div>
+
+<h2>Edytuj nazwę zmiennej</h2>
+
+<form id="variableEditForm">
+  <div>
+    <label for="oldVariableName">Stara nazwa zmiennej:</label>
+    <select name="oldVariableName" id="oldVariableName">
+
+    </select><br><br>
+
+    <label for="newVariableName">Nowa nazwa zmiennej:</label>
+    <input type="text" id="newVariableName" name="newVariableName" required><br><br>
+  </div>
+
+  <button type="button" onclick="changeVariableName()">Zapisz zmiany</button><br>
+</form>
 
 <h2>Dodaj zmienną</h2>
 

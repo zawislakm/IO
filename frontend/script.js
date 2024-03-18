@@ -15,6 +15,14 @@ function uploadCSV() {
   
     var formData = new FormData();
     formData.append('uploaded_file', file);
+
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      var csvData = e.target.result;
+      parseCSVAndGenerateTable(csvData);
+    };
+    reader.readAsText(file);
+    // parseCSVAndGenerateTable(file);
   
     fetch('http://127.0.0.1:8000/upload', {
       method: 'POST',
@@ -80,6 +88,7 @@ function getCSVHeaders() {
   .then(data => {
     csvHeaders = data; // Dostajemy liste elementow column_index i name
     displayCSVHeaders();
+    updateSelectList();
   })
   .catch(error => {
     console.error('Błąd:', error);
@@ -96,6 +105,68 @@ function displayCSVHeaders() {
     li.textContent = `${header.column_index}: ${header.name}`;
     headersList.appendChild(li);
   });
+}
+
+function updateSelectList() {
+  var selectElement = document.getElementById("oldVariableName");
+
+  csvHeaders.forEach(header => {
+    var option = document.createElement("option");
+    option.text = header.name;
+    option.value = header.column_index;
+    selectElement.appendChild(option);
+  });
+}
+
+// DISPLAY CSV
+function parseCSVAndGenerateTable(csvData) {
+  var lines = csvData.split('\n');
+  var tableHTML = '<tr>';
+  lines.forEach(function(line) {
+    var cells = line.split(';');
+    tableHTML += '<tr>';
+    cells.forEach(function(cell) {
+      tableHTML += '<td>' + cell + '</td>';
+    });
+    tableHTML += '</tr>';
+  });
+  tableHTML += '</table>';
+  
+  document.getElementById('csvTable').innerHTML = tableHTML;
+}
+
+// EDIT VARIABLE FORM
+function changeVariableName() {
+  let oldVariableIndex = document.getElementById('oldVariableName').value
+  let newVariableName = document.getElementById('newVariableName').value
+  let editedColumn = []
+  editedColumn.push(new CSVColumn(oldVariableIndex, newVariableName))
+  console.log(newVariableName)
+ 
+  fetch('http://127.0.0.1:8000/variable/' + fileName, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json' 
+      },
+      body: JSON.stringify(editedColumn)
+    })
+    .then(response => {
+      if (response.ok) {
+        return response.json();
+      } else {
+        throw new Error("Wystąpił błąd podczas edytowania zmiennej.");
+      }
+    })
+    .then(data => {
+      alert("Zmiena została pomyślnie edytowana.");
+      getCSVHeaders(); // Po uploadzie od razu pobieramy wszystkie headery
+    })
+    .catch(error => {
+      console.error('Błąd:', error);
+      alert(error.message);
+    });
+
+    document.getElementById('variableEditForm').reset();
 }
 
 
@@ -200,5 +271,12 @@ class VariableModel {
       this.SingleValueVariableList = SingleValueVariableList;
       this.defaultValue = defaultValue;
       this.variableName = variableName;
+  }
+}
+
+class CSVColumn {
+  constructor(column_index, name) {
+    this.column_index = column_index;
+    this.name = name
   }
 }
