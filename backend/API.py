@@ -3,12 +3,11 @@ from typing import List
 
 import uvicorn
 from fastapi import File, UploadFile, FastAPI, status, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 
-from fastapi.middleware.cors import CORSMiddleware
-
 import Operations as o
-from Models import CSVColumn
+from Models import CSVColumn, VariableModel
 
 app = FastAPI()
 # Ustawienie polityki CORS
@@ -19,6 +18,7 @@ app.add_middleware(
     allow_methods=["GET", "POST", "PUT", "DELETE"],
     allow_headers=["*"],
 )
+
 
 @app.post('/upload', status_code=status.HTTP_201_CREATED)
 def upload_file(uploaded_file: UploadFile = File(...)) -> dict:
@@ -53,6 +53,13 @@ def change_variables_name(file_path: str, columns: List[CSVColumn]):
         return o.change_variables_name(path=f'uploaded_files/{file_path}', columns=columns)
     except FileNotFoundError:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="File not found")
+
+
+@app.post("/new/variables/{file_path}")
+async def add_new_variables(file_path: str, variable: VariableModel):
+    # Tutaj możesz wykonać operacje na otrzymanych danych, np. zapis do bazy danych
+    print(variable, file_path)
+    return {"variable": variable}
 
 
 if __name__ == "__main__":

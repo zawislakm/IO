@@ -1,3 +1,5 @@
+from typing import List
+
 from pydantic import BaseModel
 
 
@@ -13,3 +15,18 @@ class CSVColumn(BaseModel):
     name: str
 
 
+class DependencyModel(BaseModel):
+    firstVariableName: str
+    secondVariableName: str
+    dependency: str
+
+
+class SingleValueVariableModel(BaseModel):
+    dependencyList: List[DependencyModel]
+    variableValue: str
+
+
+class VariableModel(BaseModel):
+    SingleValueVariableList: List[SingleValueVariableModel]
+    defaultValue: str
+    variableName: str

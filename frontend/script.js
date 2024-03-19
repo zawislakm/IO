@@ -7,165 +7,165 @@ var csvHeaders;
 function uploadCSV() {
     var fileInput = document.getElementById('csvFileInput');
     var file = fileInput.files[0];
-  
+
     if (!file) {
-      alert("Wybierz plik CSV do przesłania.");
-      return;
+        alert("Wybierz plik CSV do przesłania.");
+        return;
     }
-  
+
     var formData = new FormData();
     formData.append('uploaded_file', file);
 
     var reader = new FileReader();
-    reader.onload = function(e) {
-      var csvData = e.target.result;
-      parseCSVAndGenerateTable(csvData);
+    reader.onload = function (e) {
+        var csvData = e.target.result;
+        parseCSVAndGenerateTable(csvData);
     };
     reader.readAsText(file);
     // parseCSVAndGenerateTable(file);
-  
-    fetch('http://127.0.0.1:8000/upload', {
-      method: 'POST',
-      body: formData
-    })
-    .then(response => {
-        
-      if (response.ok) {
-        return response.json();
-      } else {
-        throw new Error("Wystąpił błąd podczas przesyłania pliku.");
-      }
-    })
-    .then(data => {
-      fileName = data.file;
-      alert("Plik CSV został pomyślnie przesłany.\nNazwa: " + data.file + "\nTyp zawartości: " + data.content);
-      getCSVHeaders(); // Po uploadzie od razu pobieramy wszystkie headery
-    })
-    .catch(error => {
-      console.error('Błąd:', error);
-      alert(error.message);
-    });
-  }
-  
-  function downloadCSV() {
-    if (fileName == "") {
-      alert("Najpierw prześlij plik csv")
-      return
-    }
-    fetch('http://127.0.0.1:8000/download/'+fileName)
-    .then(response => {
-      if (response.ok) {
-        return response.blob();
-      } else {
-        throw new Error("Wystąpił błąd podczas pobierania pliku.");
-      }
-    })
-    .then(blob => {
-      console.log(blob)
-      var url = window.URL.createObjectURL(blob);
-      var a = document.createElement('a');
-      a.href = url;
-      a.download = fileName;
-      document.body.appendChild(a);
-      a.click();
-      window.URL.revokeObjectURL(url);
-    })
-    .catch(error => {
-      console.error('Błąd:', error);
-      alert(error.message);
-    });
-  }
 
-  
-function getCSVHeaders() {
-  fetch('http://127.0.0.1:8000/variable/' + fileName)
-  .then(response => {
-    if (response.ok) {
-      return response.json();
-    } else {
-      throw new Error("Wystąpił błąd podczas pobierania nagłówków CSV.");
+    fetch('http://127.0.0.1:8000/upload', {
+        method: 'POST',
+        body: formData
+    })
+        .then(response => {
+
+            if (response.ok) {
+                return response.json();
+            } else {
+                throw new Error("Wystąpił błąd podczas przesyłania pliku.");
+            }
+        })
+        .then(data => {
+            fileName = data.file;
+            alert("Plik CSV został pomyślnie przesłany.\nNazwa: " + data.file + "\nTyp zawartości: " + data.content);
+            getCSVHeaders(); // Po uploadzie od razu pobieramy wszystkie headery
+        })
+        .catch(error => {
+            console.error('Błąd:', error);
+            alert(error.message);
+        });
+}
+
+function downloadCSV() {
+    if (fileName == "") {
+        alert("Najpierw prześlij plik csv")
+        return
     }
-  })
-  .then(data => {
-    csvHeaders = data; // Dostajemy liste elementow column_index i name
-    displayCSVHeaders();
-    updateSelectList();
-  })
-  .catch(error => {
-    console.error('Błąd:', error);
-    alert(error.message);
-  });
+    fetch('http://127.0.0.1:8000/download/' + fileName)
+        .then(response => {
+            if (response.ok) {
+                return response.blob();
+            } else {
+                throw new Error("Wystąpił błąd podczas pobierania pliku.");
+            }
+        })
+        .then(blob => {
+            console.log(blob)
+            var url = window.URL.createObjectURL(blob);
+            var a = document.createElement('a');
+            a.href = url;
+            a.download = fileName;
+            document.body.appendChild(a);
+            a.click();
+            window.URL.revokeObjectURL(url);
+        })
+        .catch(error => {
+            console.error('Błąd:', error);
+            alert(error.message);
+        });
+}
+
+
+function getCSVHeaders() {
+    fetch('http://127.0.0.1:8000/variable/' + fileName)
+        .then(response => {
+            if (response.ok) {
+                return response.json();
+            } else {
+                throw new Error("Wystąpił błąd podczas pobierania nagłówków CSV.");
+            }
+        })
+        .then(data => {
+            csvHeaders = data; // Dostajemy liste elementow column_index i name
+            displayCSVHeaders();
+            updateSelectList();
+        })
+        .catch(error => {
+            console.error('Błąd:', error);
+            alert(error.message);
+        });
 }
 
 function displayCSVHeaders() {
-  const headersList = document.getElementById('csvHeadersList');
-  headersList.innerHTML = '';
+    const headersList = document.getElementById('csvHeadersList');
+    headersList.innerHTML = '';
 
-  csvHeaders.forEach(header => {
-    const li = document.createElement('li');
-    li.textContent = `${header.column_index}: ${header.name}`;
-    headersList.appendChild(li);
-  });
+    csvHeaders.forEach(header => {
+        const li = document.createElement('li');
+        li.textContent = `${header.column_index}: ${header.name}`;
+        headersList.appendChild(li);
+    });
 }
 
 function updateSelectList() {
-  var selectElement = document.getElementById("oldVariableName");
-  selectElement.innerHTML = '';
-  csvHeaders.forEach(header => {
-    var option = document.createElement("option");
-    option.text = header.name;
-    option.value = header.column_index;
-    selectElement.appendChild(option);
-  });
+    var selectElement = document.getElementById("oldVariableName");
+    selectElement.innerHTML = '';
+    csvHeaders.forEach(header => {
+        var option = document.createElement("option");
+        option.text = header.name;
+        option.value = header.column_index;
+        selectElement.appendChild(option);
+    });
 }
 
 // DISPLAY CSV
 function parseCSVAndGenerateTable(csvData) {
-  var lines = csvData.split('\n');
-  var tableHTML = '<tr>';
-  lines.forEach(function(line) {
-    var cells = line.split(';');
-    tableHTML += '<tr>';
-    cells.forEach(function(cell) {
-      tableHTML += '<td>' + cell + '</td>';
+    var lines = csvData.split('\n');
+    var tableHTML = '<tr>';
+    lines.forEach(function (line) {
+        var cells = line.split(';');
+        tableHTML += '<tr>';
+        cells.forEach(function (cell) {
+            tableHTML += '<td>' + cell + '</td>';
+        });
+        tableHTML += '</tr>';
     });
-    tableHTML += '</tr>';
-  });
-  tableHTML += '</table>';
-  
-  document.getElementById('csvTable').innerHTML = tableHTML;
+    tableHTML += '</table>';
+
+    document.getElementById('csvTable').innerHTML = tableHTML;
 }
 
 // EDIT VARIABLE FORM
 function changeVariableName() {
-  let oldVariableIndex = document.getElementById('oldVariableName').value
-  let newVariableName = document.getElementById('newVariableName').value
-  let editedColumn = []
-  editedColumn.push(new CSVColumn(oldVariableIndex, newVariableName))
-  console.log(newVariableName)
- 
-  fetch('http://127.0.0.1:8000/variable/' + fileName, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json' 
-      },
-      body: JSON.stringify(editedColumn)
+    let oldVariableIndex = document.getElementById('oldVariableName').value
+    let newVariableName = document.getElementById('newVariableName').value
+    let editedColumn = []
+    editedColumn.push(new CSVColumn(oldVariableIndex, newVariableName))
+    console.log(newVariableName)
+
+    fetch('http://127.0.0.1:8000/variable/' + fileName, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(editedColumn)
     })
-    .then(response => {
-      if (response.ok) {
-        return response.json();
-      } else {
-        throw new Error("Wystąpił błąd podczas edytowania zmiennej.");
-      }
-    })
-    .then(data => {
-      alert("Zmiena została pomyślnie edytowana.");
-      getCSVHeaders(); // Po uploadzie od razu pobieramy wszystkie headery
-    })
-    .catch(error => {
-      console.error('Błąd:', error);
-      alert(error.message);
-    });
+        .then(response => {
+            if (response.ok) {
+                return response.json();
+            } else {
+                throw new Error("Wystąpił błąd podczas edytowania zmiennej.");
+            }
+        })
+        .then(data => {
+            alert("Zmiena została pomyślnie edytowana.");
+            getCSVHeaders(); // Po uploadzie od razu pobieramy wszystkie headery
+        })
+        .catch(error => {
+            console.error('Błąd:', error);
+            alert(error.message);
+        });
 
     document.getElementById('variableEditForm').reset();
 }
@@ -176,108 +176,129 @@ let DependencyList = []; // Tablica przechowująca trójki danych
 let SingleValueVariableList = [] // Tablica przechowujaca zaleznosci i wartosci dla tych zaleznosci
 
 function addDataRow() {
-  document.getElementById('')
-  DependencyList.push(new DependencyModel(document.getElementById('firstVariableInput').value, document.getElementById('secondVariableInput').value, document.getElementById('dependencyInput').value));
-  document.getElementById('firstVariableInput').id = '_'
-  document.getElementById('dependencyInput').id = '_'
-  document.getElementById('secondVariableInput').id = '_'
-  addNewDependencyRow();
+    document.getElementById('')
+    DependencyList.push(new DependencyModel(document.getElementById('firstVariableInput').value, document.getElementById('secondVariableInput').value, document.getElementById('dependencyInput').value));
+    document.getElementById('firstVariableInput').id = '_'
+    document.getElementById('dependencyInput').id = '_'
+    document.getElementById('secondVariableInput').id = '_'
+    addNewDependencyRow();
 }
 
 
 function addVariableValue() {
-  let variableValue = document.getElementById('variableValue').value;
-  SingleValueVariableList.push(new SingleValueVariableModel(DependencyList, variableValue));
-  document.getElementById('variableValue').value = ''
-  dataInputs.innerHTML = '';
-  addNewDependencyRow();
-  
-  DependencyList = []
-  console.log(SingleValueVariableList);
+    let variableValue = document.getElementById('variableValue').value;
+    SingleValueVariableList.push(new SingleValueVariableModel(DependencyList, variableValue));
+    document.getElementById('variableValue').value = ''
+    dataInputs.innerHTML = '';
+    addNewDependencyRow();
+
+    DependencyList = []
+    console.log(SingleValueVariableList);
 }
 
 function addNewDependencyRow() {
-  const dataInputs = document.getElementById('dataInputs');
-  const newRow = document.createElement('div');
-  newRow.classList.add('data-row');
+    const dataInputs = document.getElementById('dataInputs');
+    const newRow = document.createElement('div');
+    newRow.classList.add('data-row');
 
-  const firstVariableInput = document.createElement('input');
-  firstVariableInput.type = 'text';
-  firstVariableInput.classList.add('data-input');
-  firstVariableInput.name = 'firstVariableName';
-  firstVariableInput.required = true;
-  firstVariableInput.id = 'firstVariableInput'
+    const firstVariableInput = document.createElement('input');
+    firstVariableInput.type = 'text';
+    firstVariableInput.classList.add('data-input');
+    firstVariableInput.name = 'firstVariableName';
+    firstVariableInput.required = true;
+    firstVariableInput.id = 'firstVariableInput'
 
-  const dependencyInput = document.createElement('input');
-  dependencyInput.type = 'text';
-  dependencyInput.classList.add('data-separator');
-  dependencyInput.name = 'dependencyInput';
-  dependencyInput.maxLength = 1;
-  dependencyInput.required = true;
-  dependencyInput.id = 'dependencyInput'
+    const dependencyInput = document.createElement('input');
+    dependencyInput.type = 'text';
+    dependencyInput.classList.add('data-separator');
+    dependencyInput.name = 'dependencyInput';
+    dependencyInput.maxLength = 1;
+    dependencyInput.required = true;
+    dependencyInput.id = 'dependencyInput'
 
-  const secondVariableInput = document.createElement('input');
-  secondVariableInput.type = 'text';
-  secondVariableInput.classList.add('data-input');
-  secondVariableInput.name = 'secondVariableName';
-  secondVariableInput.required = true;
-  secondVariableInput.id = 'secondVariableInput'
+    const secondVariableInput = document.createElement('input');
+    secondVariableInput.type = 'text';
+    secondVariableInput.classList.add('data-input');
+    secondVariableInput.name = 'secondVariableName';
+    secondVariableInput.required = true;
+    secondVariableInput.id = 'secondVariableInput'
 
-  newRow.appendChild(firstVariableInput);
-  newRow.appendChild(dependencyInput);
-  newRow.appendChild(secondVariableInput);
+    newRow.appendChild(firstVariableInput);
+    newRow.appendChild(dependencyInput);
+    newRow.appendChild(secondVariableInput);
 
-  dataInputs.appendChild(newRow);
+    dataInputs.appendChild(newRow);
 }
 
 function addVariable() {
 
-  let defaultValue = document.getElementById('defaultVariableValue').value;
-  let variableName = document.getElementById('variableName').value;
-  const newVariable = new VariableModel(SingleValueVariableList, defaultValue, variableName);
+    let defaultValue = document.getElementById('defaultVariableValue').value;
+    let variableName = document.getElementById('variableName').value;
+    const newVariable = new VariableModel(SingleValueVariableList, defaultValue, variableName);
 
-  // TUTAJ PRZESLANIE NEW VARIABLE DO API
-  console.log(newVariable);
+    // TUTAJ PRZESLANIE NEW VARIABLE DO API
+    console.log("XD");
+    console.log(newVariable);
+    console.log(typeof newVariable);
+
+    fetch('http://127.0.0.1:8000/new/variables/' + fileName, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(newVariable) // Odkomentowana linia
+    })
+        .then(response => {
+            if (response.ok) {
+                return response.json();
+            } else {
+                throw new Error("Wystąpił błąd wysyłnia nowych zmiennych");
+            }
+        })
+        .then(data => {
+            alert("Nowe zmienne zostały wysłane");
+            getCSVHeaders(); // Po uploadzie od razu pobieramy wszystkie headery
+        })
+        .catch(error => {
+            console.error('Błąd:', error);
+            alert(error.message);
+        });
 
 
-  DependencyList = [];
-  SingleValueVariableList = [];
-  document.getElementById('variableForm').reset();
+    DependencyList = [];
+    SingleValueVariableList = [];
+    document.getElementById('variableForm').reset();
 }
 
 
-
-
-
-
-// to trzeba do jakiegos innego pliku przeniesc ale nie chcialo to dzialac 
+// to trzeba do jakiegos innego pliku przeniesc ale nie chcialo to dzialac
 
 class DependencyModel {
-  constructor(firstVariableName, secondVariableName, dependency) {
-    this.firstVariableName = firstVariableName;
-    this.secondVariableName = secondVariableName;
-    this.dependency = dependency;
-  }
+    constructor(firstVariableName, secondVariableName, dependency) {
+        this.firstVariableName = firstVariableName;
+        this.secondVariableName = secondVariableName;
+        this.dependency = dependency;
+    }
 }
 
 class SingleValueVariableModel { //kozacka nazwa :)
-  constructor(dependencyList, variableValue) {
-      this.dependencyList = dependencyList;
-      this.variableValue = variableValue;
-  }
+    constructor(dependencyList, variableValue) {
+        this.dependencyList = dependencyList;
+        this.variableValue = variableValue;
+    }
 }
 
-class VariableModel { 
-  constructor(SingleValueVariableList, defaultValue, variableName) {
-      this.SingleValueVariableList = SingleValueVariableList;
-      this.defaultValue = defaultValue;
-      this.variableName = variableName;
-  }
+class VariableModel {
+    constructor(SingleValueVariableList, defaultValue, variableName) {
+        this.SingleValueVariableList = SingleValueVariableList;
+        this.defaultValue = defaultValue;
+        this.variableName = variableName;
+    }
 }
 
 class CSVColumn {
-  constructor(column_index, name) {
-    this.column_index = column_index;
-    this.name = name
-  }
+    constructor(column_index, name) {
+        this.column_index = column_index;
+        this.name = name
+    }
 }
