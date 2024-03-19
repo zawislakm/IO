@@ -61,6 +61,7 @@ function uploadCSV() {
       }
     })
     .then(blob => {
+      console.log(blob)
       var url = window.URL.createObjectURL(blob);
       var a = document.createElement('a');
       a.href = url;
@@ -109,7 +110,7 @@ function displayCSVHeaders() {
 
 function updateSelectList() {
   var selectElement = document.getElementById("oldVariableName");
-
+  selectElement.innerHTML = '';
   csvHeaders.forEach(header => {
     var option = document.createElement("option");
     option.text = header.name;
