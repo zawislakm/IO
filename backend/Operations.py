@@ -1,27 +1,8 @@
-import csv
 from typing import List
 
 import pandas as pd
 
-from Models import CSVColumn
-
-
-def count_columns(file: str):
-    with open(file, 'r', newline='') as file:
-        reader = csv.reader(file, delimiter=";")
-        # Przyjmujemy, że pierwszy wiersz zawiera nagłówki kolumn
-        first_row = next(reader)
-        return len(first_row)
-
-
-def count_columns2(csv_file):
-    with open(csv_file, 'r', newline='') as file:
-        reader = csv.reader(file, delimiter=";")
-        max_num_columns = 0
-        for row in reader:
-            print(row)
-            max_num_columns = max(max_num_columns, len(row))
-        return max_num_columns
+from Models import CSVColumn, EventLog
 
 
 def get_variables_names(path: str) -> List[CSVColumn]:
@@ -35,6 +16,16 @@ def change_variables_name(path: str, columns: List[CSVColumn]):
         df.rename(columns={df.columns[change.column_index]: change.name}, inplace=True)
 
     df.to_csv(path, sep=";", index=False)
+
+
+def calc_cluster_stats(path: str, event_log: EventLog):
+    # TODO stats connected with cluster na action
+    pass
+
+
+def visualize_process(path: str, event_log: EventLog):
+    # TODO, process vizualiazation using PM4PY
+    pass
 
 
 if __name__ == "__main__":

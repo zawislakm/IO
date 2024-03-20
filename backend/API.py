@@ -7,7 +7,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 
 import Operations as o
-from Models import CSVColumn, VariableModel
+from Models import CSVColumn, VariableModel, EventLog
 
 app = FastAPI()
 # Ustawienie polityki CORS
@@ -60,6 +60,16 @@ async def add_new_variables(file_path: str, variable: VariableModel):
     # Tutaj możesz wykonać operacje na otrzymanych danych, np. zapis do bazy danych
     print(variable, file_path)
     return {"variable": variable}
+
+
+@app.get('/variable/compare/{file_path')
+async def compare_variables(file_path: str, event_log: EventLog):
+    o.calc_cluster_stats(file_path, event_log)
+
+
+@app.get('/variable/visualize/{file_path')
+async def visualize_process(file_path: str, event_log: EventLog):
+    o.visualize_process(file_path, event_log)
 
 
 if __name__ == "__main__":
