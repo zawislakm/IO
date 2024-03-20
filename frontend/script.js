@@ -16,13 +16,7 @@ function uploadCSV() {
     var formData = new FormData();
     formData.append('uploaded_file', file);
 
-    var reader = new FileReader();
-    reader.onload = function(e) {
-      var csvData = e.target.result;
-      parseCSVAndGenerateTable(csvData);
-    };
-    reader.readAsText(file);
-    // parseCSVAndGenerateTable(file);
+    uploadCsvTable(file);
   
     fetch('http://127.0.0.1:8000/upload', {
       method: 'POST',
@@ -88,7 +82,7 @@ function getCSVHeaders() {
   .then(data => {
     csvHeaders = data; // Dostajemy liste elementow column_index i name
     displayCSVHeaders();
-    updateSelectList();
+    updateSelectLists();
   })
   .catch(error => {
     console.error('Błąd:', error);
@@ -107,9 +101,7 @@ function displayCSVHeaders() {
   });
 }
 
-function updateSelectList() {
-  var selectElement = document.getElementById("oldVariableName");
-
+function updateSelectList(selectElement) {
   csvHeaders.forEach(header => {
     var option = document.createElement("option");
     option.text = header.name;
@@ -118,7 +110,24 @@ function updateSelectList() {
   });
 }
 
+function updateSelectLists() {
+  updateSelectList(document.getElementById("variables"));
+  updateSelectList(document.getElementById("caseID"));
+  updateSelectList(document.getElementById("action"));
+  updateSelectList(document.getElementById("date"));
+  updateSelectList(document.getElementById("cluster"));
+}
+
 // DISPLAY CSV
+function uploadCsvTable(file) {
+  var reader = new FileReader();
+    reader.onload = function(e) {
+      var csvData = e.target.result;
+      parseCSVAndGenerateTable(csvData);
+    };
+    reader.readAsText(file);
+}
+
 function parseCSVAndGenerateTable(csvData) {
   var lines = csvData.split('\n');
   var tableHTML = '<tr>';
@@ -242,6 +251,22 @@ function addVariable() {
   DependencyList = [];
   SingleValueVariableList = [];
   document.getElementById('variableForm').reset();
+}
+
+// ADD LABELS FORM
+
+function addLabels() {
+  let caseID = document.getElementById('caseID').value;
+  let action = document.getElementById('action').value;
+  let date = document.getElementById('date').value;
+  let cluster = document.getElementById('cluster').value;
+
+  console.log(caseID)
+  console.log(action)
+  console.log(date)
+  console.log(cluster)
+
+  document.getElementById('labelForm').reset();
 }
 
 

@@ -43,7 +43,7 @@
 <form id="variableEditForm">
   <div>
     <label for="oldVariableName">Stara nazwa zmiennej:</label>
-    <select name="oldVariableName" id="oldVariableName">
+    <select name="oldVariableName" id="variables">
 
     </select><br><br>
 
@@ -79,6 +79,30 @@
   <input type="text" id="defaultVariableValue" name="defaultVariableValue" required><br>
 
   <button type="button" onclick="addVariable()">Dodaj zmienną</button>
+</form>
+
+<h2>Dodaj oznaczenia</h2>
+
+<form id="labelForm">
+  <div>
+    <label for="caseID">caseID:</label>
+    <select name="caseID" id="caseID">
+    </select><br><br>
+
+    <label for="action">czynność:</label>
+    <select name="action" id="action">
+    </select><br><br>
+
+    <label for="date">data:</label>
+    <select name="date" id="date">
+    </select><br><br>
+
+    <label for="cluster">cluster:</label>
+    <select name="cluster" id="cluster">
+    </select><br><br>
+  </div>
+
+  <button type="button" onclick="addLabels()">Dodaj oznaczenia</button><br>
 </form>
 
 <script src="script.js"></script>
