@@ -70,6 +70,26 @@ function downloadCSV() {
         });
 }
 
+function getCurrentCSV() {
+  if (fileName == "") {
+      alert("Brak pliku csv.")
+      return
+  }
+  fetch('http://127.0.0.1:8000/download/' + fileName)
+      .then(response => {
+          if (response.ok) {
+              return response.blob();
+          } else {
+              throw new Error("Wystąpił błąd podczas pobierania aktualnego pliku.");
+          }
+      })
+      .then(response => response.text())
+      .then(data => parseCSVAndGenerateTable(data))
+      .catch(error => {
+          console.error('Błąd:', error);
+          alert(error.message);
+      });
+}
 
 function getCSVHeaders() {
   fetch('http://127.0.0.1:8000/variable/' + fileName)
@@ -148,7 +168,7 @@ function parseCSVAndGenerateTable(csvData) {
 
 // EDIT VARIABLE FORM
 function changeVariableName() {
-    let oldVariableIndex = document.getElementById('oldVariableName').value
+    let oldVariableIndex = document.getElementById('variables').value
     let newVariableName = document.getElementById('newVariableName').value
     let editedColumn = []
     editedColumn.push(new CSVColumn(oldVariableIndex, newVariableName))
@@ -169,8 +189,9 @@ function changeVariableName() {
             }
         })
         .then(data => {
-            alert("Zmiena została pomyślnie edytowana.");
+            alert("Zmienna została pomyślnie edytowana.");
             getCSVHeaders(); // Po uploadzie od razu pobieramy wszystkie headery
+            getCurrentCSV();
         })
         .catch(error => {
             console.error('Błąd:', error);
@@ -268,6 +289,7 @@ function addVariable() {
         .then(data => {
             alert("Nowe zmienne zostały wysłane");
             getCSVHeaders(); // Po uploadzie od razu pobieramy wszystkie headery
+            getCurrentCSV();
         })
         .catch(error => {
             console.error('Błąd:', error);
