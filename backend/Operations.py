@@ -26,7 +26,6 @@ def apply_rule(rules: List[DependencyModel], row: pandas.core.series.Series) -> 
         value2 = row.get(rule.secondVariableName, rule.secondVariableName)
 
         expression = f'{value1} {rule.get_dependency()} {value2}'
-        print(expression)
         if not bool(sympify(expression)):
             return False
 
