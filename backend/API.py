@@ -62,12 +62,12 @@ async def add_new_variables(file_path: str, variable: VariableModel):
     return {"variable": variable}
 
 
-@app.get('/variable/compare/{file_path')
+@app.get('/variable/compare/{file_path}')
 async def compare_variables(file_path: str, event_log: EventLog):
     o.calc_cluster_stats(file_path, event_log)
 
 
-@app.get('/variable/visualize/{file_path')
+@app.get('/variable/visualize/{file_path}')
 async def visualize_process(file_path: str, event_log: EventLog):
     o.visualize_process(file_path, event_log)
 

@@ -85,16 +85,16 @@
 
 <form id="labelForm">
   <div>
-    <label for="caseID">caseID:</label>
-    <select name="caseID" id="caseID">
+    <label for="case_ID">case_ID:</label>
+    <select name="case_ID" id="case_ID">
     </select><br><br>
 
-    <label for="action">czynność:</label>
+    <label for="action">action:</label>
     <select name="action" id="action">
     </select><br><br>
 
-    <label for="date">data:</label>
-    <select name="date" id="date">
+    <label for="timestamp">timestamp:</label>
+    <select name="timestamp" id="timestamp">
     </select><br><br>
 
     <label for="cluster">cluster:</label>
@@ -103,6 +103,10 @@
   </div>
 
   <button type="button" onclick="addLabels()">Dodaj oznaczenia</button><br>
+
+<h2>Oznaczenia</h2>
+
+<ul id="labelsList"></ul>
 </form>
 
 <script src="script.js"></script>

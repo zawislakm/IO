@@ -3,6 +3,7 @@
 
 var fileName = "";
 var csvHeaders;
+var eventLog;
 
 function uploadCSV() {
     var fileInput = document.getElementById('csvFileInput');
@@ -134,9 +135,9 @@ function updateSelectList(selectElement) {
 
 function updateSelectLists() {
   updateSelectList(document.getElementById("variables"));
-  updateSelectList(document.getElementById("caseID"));
+  updateSelectList(document.getElementById("case_ID"));
   updateSelectList(document.getElementById("action"));
-  updateSelectList(document.getElementById("date"));
+  updateSelectList(document.getElementById("timestamp"));
   updateSelectList(document.getElementById("cluster"));
 }
 
@@ -304,16 +305,28 @@ function addVariable() {
 
 // ADD LABELS FORM
 
+function createLiElement(label, name, list) {
+  const li = document.createElement('li');
+  li.textContent = `${label}: ${name}`;
+  list.appendChild(li);
+}
+
 function addLabels() {
-  let caseID = document.getElementById('caseID').value;
+  let case_ID = document.getElementById('case_ID').value;
   let action = document.getElementById('action').value;
-  let date = document.getElementById('date').value;
+  let timestamp = document.getElementById('timestamp').value;
   let cluster = document.getElementById('cluster').value;
 
-  console.log(caseID)
-  console.log(action)
-  console.log(date)
-  console.log(cluster)
+  const labelsList = document.getElementById('labelsList');
+  labelsList.innerHTML = '';
+  createLiElement('case_ID', csvHeaders[case_ID].name, labelsList)
+  createLiElement('action', csvHeaders[action].name, labelsList)
+  createLiElement('timestamp', csvHeaders[timestamp].name, labelsList)
+  createLiElement('cluster', csvHeaders[cluster].name, labelsList)
+
+  eventLog = new EventLog(case_ID, timestamp, action, cluster)
+
+  console.log(eventLog)
 
   document.getElementById('labelForm').reset();
 }
@@ -352,5 +365,14 @@ class CSVColumn {
     constructor(column_index, name) {
         this.column_index = column_index;
         this.name = name
+    }
+}
+
+class EventLog {
+    constructor(case_ID, timestamp, action, cluster) {
+      this.case_ID = case_ID
+      this.timestamp = timestamp
+      this.action = action
+      this.cluster = cluster
     }
 }
