@@ -1,6 +1,7 @@
 import shutil
 from typing import List
 
+import pandas as pd
 import uvicorn
 from fastapi import File, UploadFile, FastAPI, status, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
@@ -21,9 +22,14 @@ app.add_middleware(
 
 
 @app.post('/upload', status_code=status.HTTP_201_CREATED)
-def upload_file(uploaded_file: UploadFile = File(...)) -> dict:
+async def upload_file(uploaded_file: UploadFile = File(...)) -> dict:
     with open(f"uploaded_files/{uploaded_file.filename}", 'w+b') as file:
         shutil.copyfileobj(uploaded_file.file, file)
+
+    df = pd.read_csv(f'uploaded_files/{uploaded_file.filename}', sep=";")
+    df.fillna(value = 0, inplace=True)
+    df = df.replace(',', '.', regex=True)
+    df.to_csv(f'uploaded_files/{uploaded_file.filename}',sep=";",index=False)
 
     return {
         'file': uploaded_file.filename,
@@ -32,7 +38,7 @@ def upload_file(uploaded_file: UploadFile = File(...)) -> dict:
 
 
 @app.get("/download/{file_path}", status_code=status.HTTP_200_OK)
-def send_file(file_path: str) -> FileResponse:
+async def send_file(file_path: str) -> FileResponse:
     try:
         return FileResponse(f'uploaded_files/{file_path}')
     except FileNotFoundError:
@@ -59,6 +65,8 @@ def change_variables_name(file_path: str, columns: List[CSVColumn]):
 async def add_new_variables(file_path: str, variable: VariableModel):
     # Tutaj możesz wykonać operacje na otrzymanych danych, np. zapis do bazy danych
     print(variable, file_path)
+
+    o.add_new_variable(f'uploaded_files/{file_path}', variable)
     return {"variable": variable}
 
 

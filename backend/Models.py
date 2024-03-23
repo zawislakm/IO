@@ -1,5 +1,6 @@
 from typing import List
 
+from sympy import sympify
 from pydantic import BaseModel
 
 
@@ -17,8 +18,16 @@ class CSVColumn(BaseModel):
 
 class DependencyModel(BaseModel):
     firstVariableName: str
-    secondVariableName: str
+    secondVariableName: str | int
     dependency: str
+
+    def get_dependency(self) -> str:
+        if self.dependency == "=":
+            return "=="
+        return self.dependency
+
+
+
 
 
 class SingleValueVariableModel(BaseModel):

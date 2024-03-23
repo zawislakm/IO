@@ -1,8 +1,10 @@
 from typing import List
 
 import pandas as pd
+import pandas.core.series
+from sympy import sympify
 
-from Models import CSVColumn, EventLog
+from Models import CSVColumn, EventLog, VariableModel, DependencyModel
 
 
 def get_variables_names(path: str) -> List[CSVColumn]:
@@ -14,6 +16,33 @@ def change_variables_name(path: str, columns: List[CSVColumn]):
     df = pd.read_csv(path, sep=";")
     for change in columns:
         df.rename(columns={df.columns[change.column_index]: change.name}, inplace=True)
+
+    df.to_csv(path, sep=";", index=False)
+
+
+def apply_rule(rules: List[DependencyModel], row: pandas.core.series.Series) -> bool:
+    for rule in rules:
+        value1 = row.get(rule.firstVariableName, rule.firstVariableName)
+        value2 = row.get(rule.secondVariableName, rule.secondVariableName)
+
+        expression = f'{value1} {rule.get_dependency()} {value2}'
+        print(expression)
+        if not bool(sympify(expression)):
+            return False
+
+    return True
+
+
+def add_new_variable(path: str, variable: VariableModel):
+    df = pd.read_csv(path, sep=";")
+
+    df[variable.variableName] = variable.defaultValue
+
+    for variable_rule in variable.SingleValueVariableList:
+        for index, row in df.iterrows():
+            if not apply_rule(variable_rule.dependencyList, row):
+                continue
+            df.loc[index, variable.variableName] = variable_rule.variableValue
 
     df.to_csv(path, sep=";", index=False)
 
