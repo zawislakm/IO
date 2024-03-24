@@ -89,7 +89,7 @@ def visualize_process(path: str, event_log: EventLog):
     path_xes = "xes files/" + os.path.basename(path)[:-4]
     pm4py.write_xes(e_log, path_xes)
 
-    path_svg = "images/" + os.path.basename(path)[:-4] + ".svg"
+    path_svg = "images/" + os.path.basename(path)[:-4] + ".png"
     dfg, start_activities, end_activities = pm4py.discover_dfg(e_log)
     pm4py.save_vis_dfg(dfg, start_activities, end_activities, path_svg)
 
