@@ -67,11 +67,11 @@ def calc_cluster_stats(path: str, event_log: EventLog):
 
     df['Cluster'] = dbscan.labels_
 
-    class_1 = df[df.columns[event_log.case_ID]]
+    class_1 = df[df.columns[event_log.cluster]]
     class_2 = df[df.columns[event_log.action]]
 
     plt.scatter(class_1, class_2, c=df['Cluster'], cmap='viridis')
-    plt.xlabel('Case ID')
+    plt.xlabel('Clusters')
     plt.ylabel('Activity')
     plt.title('DBSCAN Clustering')
     path_c = "clustering/" + os.path.basename(path)[:-4] + '.jpg'
@@ -91,7 +91,7 @@ def visualize_process(path: str, event_log: EventLog):
     pm4py.write_xes(e_log, path_xes)
 
     path_svg = "images/" + os.path.basename(path)[:-4] + ".svg"
-    dfg, start_activities, end_activities = pm4py.discover_dfg(event_log)
+    dfg, start_activities, end_activities = pm4py.discover_dfg(e_log)
     pm4py.save_vis_dfg(dfg, start_activities, end_activities,path_svg)
 
 
