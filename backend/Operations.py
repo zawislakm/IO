@@ -4,6 +4,9 @@ import pandas as pd
 import pandas.core.series
 from sympy import sympify
 
+import os
+import pm4py
+
 from Models import CSVColumn, EventLog, VariableModel, DependencyModel
 
 
@@ -52,8 +55,20 @@ def calc_cluster_stats(path: str, event_log: EventLog):
 
 
 def visualize_process(path: str, event_log: EventLog):
-    # TODO, process vizualiazation using PM4PY
-    pass
+    df = pd.read_csv(path, sep=";")
+    df = df.dropna()
+
+    df = pm4py.format_dataframe(df, case_id=df.columns[event_log.case_ID],
+                                       activity_key=df.columns[event_log.action],
+                                       timestamp_key=df.columns[event_log.timestamp])
+
+    e_log = pm4py.convert_to_event_log(df)
+    path_xes = "xes files/" + os.path.basename(path)[:-4]
+    pm4py.write_xes(e_log, path_xes)
+
+    path_svg = "images/" + os.path.basename(path)[:-4] + ".svg"
+    dfg, start_activities, end_activities = pm4py.discover_dfg(event_log)
+    pm4py.save_vis_dfg(dfg, start_activities, end_activities,path_svg)
 
 
 if __name__ == "__main__":
