@@ -66,14 +66,24 @@ async def add_new_variables(file_path: str, variable: VariableModel):
     o.add_new_variable(f'uploaded_files/{file_path}', variable)
 
 
-@app.get('/variable/compare/{file_path}')
+@app.post('/variable/compare/{file_path}')
 async def compare_variables(file_path: str, event_log: EventLog):
-    o.calc_cluster_stats(file_path, event_log)
+    o.calc_cluster_stats(f'uploaded_files/{file_path}', event_log)
+    file_path = file_path.replace("csv","jpg")
+    try:
+        return FileResponse(f'clustering/{file_path}')
+    except FileNotFoundError:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="File not found")
 
 
-@app.get('/variable/visualize/{file_path}')
+@app.post('/variable/visualize/{file_path}')
 async def visualize_process(file_path: str, event_log: EventLog):
-    o.visualize_process(file_path, event_log)
+    o.visualize_process(f'uploaded_files/{file_path}', event_log)
+    file_path = file_path.replace("csv", "png")
+    try:
+        return FileResponse(f'images/{file_path}')
+    except FileNotFoundError:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="File not found")
 
 
 if __name__ == "__main__":

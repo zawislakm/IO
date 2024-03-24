@@ -96,6 +96,6 @@ def visualize_process(path: str, event_log: EventLog):
 
 if __name__ == "__main__":
     path = 'uploaded_files/Zeszyt1_akt_pm.csv'
-    event_log = EventLog(case_ID=9, timestamp=1, action=4, cluster=10)
+    event_log = EventLog(case_ID=9, timestamp=1, action=11, cluster=10)
     calc_cluster_stats(path, event_log)
     visualize_process(path, event_log)
