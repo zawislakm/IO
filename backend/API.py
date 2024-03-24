@@ -27,9 +27,9 @@ async def upload_file(uploaded_file: UploadFile = File(...)) -> dict:
         shutil.copyfileobj(uploaded_file.file, file)
 
     df = pd.read_csv(f'uploaded_files/{uploaded_file.filename}', sep=";")
-    df.fillna(value = 0, inplace=True)
+    df.fillna(value=0, inplace=True)
     df = df.replace(',', '.', regex=True)
-    df.to_csv(f'uploaded_files/{uploaded_file.filename}',sep=";",index=False)
+    df.to_csv(f'uploaded_files/{uploaded_file.filename}', sep=";", index=False)
 
     return {
         'file': uploaded_file.filename,
@@ -63,11 +63,7 @@ def change_variables_name(file_path: str, columns: List[CSVColumn]):
 
 @app.post("/new/variables/{file_path}")
 async def add_new_variables(file_path: str, variable: VariableModel):
-    # Tutaj możesz wykonać operacje na otrzymanych danych, np. zapis do bazy danych
-    print(variable, file_path)
-
     o.add_new_variable(f'uploaded_files/{file_path}', variable)
-    return {"variable": variable}
 
 
 @app.get('/variable/compare/{file_path}')
