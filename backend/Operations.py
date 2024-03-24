@@ -6,6 +6,8 @@ from sympy import sympify
 
 import os
 import pm4py
+from sklearn.cluster import KMeans
+import matplotlib.pyplot as plt
 
 from Models import CSVColumn, EventLog, VariableModel, DependencyModel
 
@@ -50,8 +52,30 @@ def add_new_variable(path: str, variable: VariableModel):
 
 
 def calc_cluster_stats(path: str, event_log: EventLog):
-    # TODO stats connected with cluster na action
-    pass
+    df= pd.read_csv(path, sep=";")
+    df = df.dropna()
+
+    for col in df.columns:
+        if df[col].dtype != 'object':
+            continue
+        df[col] = df[col].str.replace(',', '.')
+
+    feature = df.iloc[:, event_log.cluster:event_log.cluster+1]
+
+    kmeans = KMeans(n_clusters=3)
+    kmeans.fit(feature)
+
+    df['Cluster'] = kmeans.labels_
+
+    class_1 = pd.DataFrame(df['Zmienna A']).astype(float).round(2)
+    class_2 = pd.DataFrame(df['Zmienna E']).astype(float).round(2)
+
+    plt.scatter(class_1, class_2, c=df['Cluster'], cmap='viridis')
+    plt.xlabel('Zmienna A')
+    plt.ylabel('Zmienna E')
+    plt.title('KMeans Clustering')
+    path_c = "clustering/" + os.path.basename(path)[:-4] + '.jpg'
+    plt.savefig(path_c)
 
 
 def visualize_process(path: str, event_log: EventLog):
