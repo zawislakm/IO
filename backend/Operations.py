@@ -6,7 +6,7 @@ from sympy import sympify
 
 import os
 import pm4py
-from sklearn.cluster import KMeans
+from sklearn.cluster import DBSCAN
 import matplotlib.pyplot as plt
 
 from Models import CSVColumn, EventLog, VariableModel, DependencyModel
@@ -62,18 +62,18 @@ def calc_cluster_stats(path: str, event_log: EventLog):
 
     feature = df.iloc[:, event_log.cluster:event_log.cluster+1]
 
-    kmeans = KMeans(n_clusters=3)
-    kmeans.fit(feature)
+    dbscan = DBSCAN(eps=0.5, min_samples=5)
+    dbscan.fit(feature)
 
-    df['Cluster'] = kmeans.labels_
+    df['Cluster'] = dbscan.labels_
 
-    class_1 = pd.DataFrame(df['Zmienna A']).astype(float).round(2)
-    class_2 = pd.DataFrame(df['Zmienna E']).astype(float).round(2)
+    class_1 = df[df.columns[event_log.case_ID]]
+    class_2 = df[df.columns[event_log.action]]
 
     plt.scatter(class_1, class_2, c=df['Cluster'], cmap='viridis')
-    plt.xlabel('Zmienna A')
-    plt.ylabel('Zmienna E')
-    plt.title('KMeans Clustering')
+    plt.xlabel('Case ID')
+    plt.ylabel('Activity')
+    plt.title('DBSCAN Clustering')
     path_c = "clustering/" + os.path.basename(path)[:-4] + '.jpg'
     plt.savefig(path_c)
 
