@@ -61,16 +61,16 @@ def calc_cluster_stats(path: str, event_log: EventLog):
 
     feature = df.iloc[:, event_log.cluster:event_log.cluster + 1]
 
-    dbscan = DBSCAN(eps=0.5, min_samples=5)
+    dbscan = DBSCAN(eps=1, min_samples=5)
     dbscan.fit(feature)
 
     df['Cluster'] = dbscan.labels_
 
-    class_1 = df[df.columns[event_log.case_ID]]
-    class_2 = df[df.columns[event_log.action]]
+    class_1 = df['Cluster']
+    class_2 = df[df.columns[event_log.action]].astype(float).round(2)
 
     plt.scatter(class_1, class_2, c=df['Cluster'], cmap='viridis')
-    plt.xlabel('Case ID')
+    plt.xlabel('Cluster')
     plt.ylabel('Activity')
     plt.title('DBSCAN Clustering')
     path_c = "clustering/" + os.path.basename(path)[:-4] + '.jpg'

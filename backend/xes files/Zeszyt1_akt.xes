@@ -16,7 +16,7 @@
 			<string key="Zmienna F" value="98,73999786" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="1" />
-			<string key="concept:name" value="60.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T00:00:00+00:00" />
 			<int key="@@index" value="0" />
 			<int key="@@case_index" value="0" />
@@ -32,7 +32,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="1" />
-			<string key="concept:name" value="49.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T00:10:00+00:00" />
 			<int key="@@index" value="1" />
 			<int key="@@case_index" value="0" />
@@ -48,7 +48,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="1" />
-			<string key="concept:name" value="34.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T00:20:00+00:00" />
 			<int key="@@index" value="2" />
 			<int key="@@case_index" value="0" />
@@ -64,7 +64,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="1" />
-			<string key="concept:name" value="53.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T00:30:00+00:00" />
 			<int key="@@index" value="3" />
 			<int key="@@case_index" value="0" />
@@ -80,7 +80,7 @@
 			<string key="Zmienna F" value="97" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="1" />
-			<string key="concept:name" value="58.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T00:40:00+00:00" />
 			<int key="@@index" value="4" />
 			<int key="@@case_index" value="0" />
@@ -96,7 +96,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="1" />
-			<string key="concept:name" value="41.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T00:50:00+00:00" />
 			<int key="@@index" value="5" />
 			<int key="@@case_index" value="0" />
@@ -112,7 +112,7 @@
 			<string key="Zmienna F" value="90,04000092" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="1" />
-			<string key="concept:name" value="46.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T01:00:00+00:00" />
 			<int key="@@index" value="6" />
 			<int key="@@case_index" value="0" />
@@ -128,7 +128,7 @@
 			<string key="Zmienna F" value="93,51999664" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="1" />
-			<string key="concept:name" value="32.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T01:10:00+00:00" />
 			<int key="@@index" value="7" />
 			<int key="@@case_index" value="0" />
@@ -144,7 +144,7 @@
 			<string key="Zmienna F" value="103,9599991" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="1" />
-			<string key="concept:name" value="57.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T01:20:00+00:00" />
 			<int key="@@index" value="8" />
 			<int key="@@case_index" value="0" />
@@ -160,7 +160,7 @@
 			<string key="Zmienna F" value="97" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="1" />
-			<string key="concept:name" value="30.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T01:30:00+00:00" />
 			<int key="@@index" value="9" />
 			<int key="@@case_index" value="0" />
@@ -176,7 +176,7 @@
 			<string key="Zmienna F" value="112,6600037" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="1" />
-			<string key="concept:name" value="61.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T01:40:00+00:00" />
 			<int key="@@index" value="10" />
 			<int key="@@case_index" value="0" />
@@ -192,7 +192,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="1" />
-			<string key="concept:name" value="35.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T01:50:00+00:00" />
 			<int key="@@index" value="11" />
 			<int key="@@case_index" value="0" />
@@ -208,7 +208,7 @@
 			<string key="Zmienna F" value="109,1800003" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="1" />
-			<string key="concept:name" value="61.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T02:00:00+00:00" />
 			<int key="@@index" value="12" />
 			<int key="@@case_index" value="0" />
@@ -224,7 +224,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="1" />
-			<string key="concept:name" value="41.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T02:10:00+00:00" />
 			<int key="@@index" value="13" />
 			<int key="@@case_index" value="0" />
@@ -243,7 +243,7 @@
 			<string key="Zmienna F" value="102,2200012" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="10" />
-			<string key="concept:name" value="60.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T00:40:00+00:00" />
 			<int key="@@index" value="14" />
 			<int key="@@case_index" value="1" />
@@ -259,7 +259,7 @@
 			<string key="Zmienna F" value="109,1800003" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="10" />
-			<string key="concept:name" value="71.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T00:50:00+00:00" />
 			<int key="@@index" value="15" />
 			<int key="@@case_index" value="1" />
@@ -275,7 +275,7 @@
 			<string key="Zmienna F" value="112,6600037" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="10" />
-			<string key="concept:name" value="56.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T01:00:00+00:00" />
 			<int key="@@index" value="16" />
 			<int key="@@case_index" value="1" />
@@ -291,7 +291,7 @@
 			<string key="Zmienna F" value="93,51999664" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="10" />
-			<string key="concept:name" value="46.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T01:10:00+00:00" />
 			<int key="@@index" value="17" />
 			<int key="@@case_index" value="1" />
@@ -307,7 +307,7 @@
 			<string key="Zmienna F" value="97" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="10" />
-			<string key="concept:name" value="31.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T01:20:00+00:00" />
 			<int key="@@index" value="18" />
 			<int key="@@case_index" value="1" />
@@ -323,7 +323,7 @@
 			<string key="Zmienna F" value="86,55999756" />
 			<float key="Zmienna G" value="1.0" />
 			<int key="Case ID" value="10" />
-			<string key="concept:name" value="49.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T01:30:00+00:00" />
 			<int key="@@index" value="19" />
 			<int key="@@case_index" value="1" />
@@ -339,7 +339,7 @@
 			<string key="Zmienna F" value="93,51999664" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="10" />
-			<string key="concept:name" value="27.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T01:40:00+00:00" />
 			<int key="@@index" value="20" />
 			<int key="@@case_index" value="1" />
@@ -355,7 +355,7 @@
 			<string key="Zmienna F" value="93,51999664" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="10" />
-			<string key="concept:name" value="54.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T01:50:00+00:00" />
 			<int key="@@index" value="21" />
 			<int key="@@case_index" value="1" />
@@ -371,7 +371,7 @@
 			<string key="Zmienna F" value="100,4800034" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="10" />
-			<string key="concept:name" value="68.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T02:00:00+00:00" />
 			<int key="@@index" value="22" />
 			<int key="@@case_index" value="1" />
@@ -387,7 +387,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="10" />
-			<string key="concept:name" value="49.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T02:10:00+00:00" />
 			<int key="@@index" value="23" />
 			<int key="@@case_index" value="1" />
@@ -403,7 +403,7 @@
 			<string key="Zmienna F" value="109,1800003" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="10" />
-			<string key="concept:name" value="71.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T02:20:00+00:00" />
 			<int key="@@index" value="24" />
 			<int key="@@case_index" value="1" />
@@ -419,7 +419,7 @@
 			<string key="Zmienna F" value="100,4800034" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="10" />
-			<string key="concept:name" value="60.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T02:30:00+00:00" />
 			<int key="@@index" value="25" />
 			<int key="@@case_index" value="1" />
@@ -435,7 +435,7 @@
 			<string key="Zmienna F" value="114,4000015" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="10" />
-			<string key="concept:name" value="60.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T02:40:00+00:00" />
 			<int key="@@index" value="26" />
 			<int key="@@case_index" value="1" />
@@ -454,7 +454,7 @@
 			<string key="Zmienna F" value="97" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="11" />
-			<string key="concept:name" value="34.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T02:50:00+00:00" />
 			<int key="@@index" value="27" />
 			<int key="@@case_index" value="2" />
@@ -470,7 +470,7 @@
 			<string key="Zmienna F" value="100,4800034" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="11" />
-			<string key="concept:name" value="57.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T03:00:00+00:00" />
 			<int key="@@index" value="28" />
 			<int key="@@case_index" value="2" />
@@ -486,7 +486,7 @@
 			<string key="Zmienna F" value="86,55999756" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="11" />
-			<string key="concept:name" value="55.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T03:10:00+00:00" />
 			<int key="@@index" value="29" />
 			<int key="@@case_index" value="2" />
@@ -502,7 +502,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="11" />
-			<string key="concept:name" value="33.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T03:20:00+00:00" />
 			<int key="@@index" value="30" />
 			<int key="@@case_index" value="2" />
@@ -518,7 +518,7 @@
 			<string key="Zmienna F" value="109,1800003" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="11" />
-			<string key="concept:name" value="73.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T03:30:00+00:00" />
 			<int key="@@index" value="31" />
 			<int key="@@case_index" value="2" />
@@ -534,7 +534,7 @@
 			<string key="Zmienna F" value="114,4000015" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="11" />
-			<string key="concept:name" value="58.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T03:40:00+00:00" />
 			<int key="@@index" value="32" />
 			<int key="@@case_index" value="2" />
@@ -550,7 +550,7 @@
 			<string key="Zmienna F" value="119,6200027" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="11" />
-			<string key="concept:name" value="66.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T03:50:00+00:00" />
 			<int key="@@index" value="33" />
 			<int key="@@case_index" value="2" />
@@ -566,7 +566,7 @@
 			<string key="Zmienna F" value="97" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="11" />
-			<string key="concept:name" value="56.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T04:00:00+00:00" />
 			<int key="@@index" value="34" />
 			<int key="@@case_index" value="2" />
@@ -582,7 +582,7 @@
 			<string key="Zmienna F" value="93,51999664" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="11" />
-			<string key="concept:name" value="36.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T04:10:00+00:00" />
 			<int key="@@index" value="35" />
 			<int key="@@case_index" value="2" />
@@ -598,7 +598,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="11" />
-			<string key="concept:name" value="34.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T04:20:00+00:00" />
 			<int key="@@index" value="36" />
 			<int key="@@case_index" value="2" />
@@ -614,7 +614,7 @@
 			<string key="Zmienna F" value="102,2200012" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="11" />
-			<string key="concept:name" value="63.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T04:30:00+00:00" />
 			<int key="@@index" value="37" />
 			<int key="@@case_index" value="2" />
@@ -630,7 +630,7 @@
 			<string key="Zmienna F" value="84,81999969" />
 			<float key="Zmienna G" value="1.0" />
 			<int key="Case ID" value="11" />
-			<string key="concept:name" value="33.0" />
+			<string key="concept:name" value="0.0" />
 			<date key="time:timestamp" value="2020-02-01T04:40:00+00:00" />
 			<int key="@@index" value="38" />
 			<int key="@@case_index" value="2" />
@@ -646,7 +646,7 @@
 			<string key="Zmienna F" value="102,2200012" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="11" />
-			<string key="concept:name" value="56.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T04:50:00+00:00" />
 			<int key="@@index" value="39" />
 			<int key="@@case_index" value="2" />
@@ -662,7 +662,7 @@
 			<string key="Zmienna F" value="97" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="11" />
-			<string key="concept:name" value="32.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T05:00:00+00:00" />
 			<int key="@@index" value="40" />
 			<int key="@@case_index" value="2" />
@@ -678,7 +678,7 @@
 			<string key="Zmienna F" value="97" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="11" />
-			<string key="concept:name" value="59.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T05:10:00+00:00" />
 			<int key="@@index" value="41" />
 			<int key="@@case_index" value="2" />
@@ -694,7 +694,7 @@
 			<string key="Zmienna F" value="100,4800034" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="11" />
-			<string key="concept:name" value="75.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T05:20:00+00:00" />
 			<int key="@@index" value="42" />
 			<int key="@@case_index" value="2" />
@@ -710,7 +710,7 @@
 			<string key="Zmienna F" value="91,77999878" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="11" />
-			<string key="concept:name" value="51.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T05:30:00+00:00" />
 			<int key="@@index" value="43" />
 			<int key="@@case_index" value="2" />
@@ -726,7 +726,7 @@
 			<string key="Zmienna F" value="93,51999664" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="11" />
-			<string key="concept:name" value="40.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T05:40:00+00:00" />
 			<int key="@@index" value="44" />
 			<int key="@@case_index" value="2" />
@@ -742,7 +742,7 @@
 			<string key="Zmienna F" value="97" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="11" />
-			<string key="concept:name" value="41.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T05:50:00+00:00" />
 			<int key="@@index" value="45" />
 			<int key="@@case_index" value="2" />
@@ -758,7 +758,7 @@
 			<string key="Zmienna F" value="98,73999786" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="11" />
-			<string key="concept:name" value="53.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T06:00:00+00:00" />
 			<int key="@@index" value="46" />
 			<int key="@@case_index" value="2" />
@@ -774,7 +774,7 @@
 			<string key="Zmienna F" value="112,6600037" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="11" />
-			<string key="concept:name" value="73.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T06:10:00+00:00" />
 			<int key="@@index" value="47" />
 			<int key="@@case_index" value="2" />
@@ -790,7 +790,7 @@
 			<string key="Zmienna F" value="102,2200012" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="11" />
-			<string key="concept:name" value="50.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T06:20:00+00:00" />
 			<int key="@@index" value="48" />
 			<int key="@@case_index" value="2" />
@@ -806,7 +806,7 @@
 			<string key="Zmienna F" value="83,08000183" />
 			<float key="Zmienna G" value="1.0" />
 			<int key="Case ID" value="11" />
-			<string key="concept:name" value="30.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T06:30:00+00:00" />
 			<int key="@@index" value="49" />
 			<int key="@@case_index" value="2" />
@@ -822,7 +822,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="11" />
-			<string key="concept:name" value="55.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T06:40:00+00:00" />
 			<int key="@@index" value="50" />
 			<int key="@@case_index" value="2" />
@@ -838,7 +838,7 @@
 			<string key="Zmienna F" value="100,4800034" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="11" />
-			<string key="concept:name" value="57.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T06:50:00+00:00" />
 			<int key="@@index" value="51" />
 			<int key="@@case_index" value="2" />
@@ -857,7 +857,7 @@
 			<string key="Zmienna F" value="97" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="12" />
-			<string key="concept:name" value="64.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T07:00:00+00:00" />
 			<int key="@@index" value="52" />
 			<int key="@@case_index" value="3" />
@@ -873,7 +873,7 @@
 			<string key="Zmienna F" value="100,4800034" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="12" />
-			<string key="concept:name" value="56.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T07:10:00+00:00" />
 			<int key="@@index" value="53" />
 			<int key="@@case_index" value="3" />
@@ -889,7 +889,7 @@
 			<string key="Zmienna F" value="84,81999969" />
 			<float key="Zmienna G" value="1.0" />
 			<int key="Case ID" value="12" />
-			<string key="concept:name" value="49.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T07:20:00+00:00" />
 			<int key="@@index" value="54" />
 			<int key="@@case_index" value="3" />
@@ -905,7 +905,7 @@
 			<string key="Zmienna F" value="83,08000183" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="12" />
-			<string key="concept:name" value="44.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T07:30:00+00:00" />
 			<int key="@@index" value="55" />
 			<int key="@@case_index" value="3" />
@@ -921,7 +921,7 @@
 			<string key="Zmienna F" value="93,51999664" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="12" />
-			<string key="concept:name" value="56.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T07:40:00+00:00" />
 			<int key="@@index" value="56" />
 			<int key="@@case_index" value="3" />
@@ -937,7 +937,7 @@
 			<string key="Zmienna F" value="90,04000092" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="12" />
-			<string key="concept:name" value="40.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T07:50:00+00:00" />
 			<int key="@@index" value="57" />
 			<int key="@@case_index" value="3" />
@@ -953,7 +953,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="12" />
-			<string key="concept:name" value="42.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T08:00:00+00:00" />
 			<int key="@@index" value="58" />
 			<int key="@@case_index" value="3" />
@@ -969,7 +969,7 @@
 			<string key="Zmienna F" value="86,55999756" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="12" />
-			<string key="concept:name" value="45.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T08:10:00+00:00" />
 			<int key="@@index" value="59" />
 			<int key="@@case_index" value="3" />
@@ -985,7 +985,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="12" />
-			<string key="concept:name" value="35.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T08:20:00+00:00" />
 			<int key="@@index" value="60" />
 			<int key="@@case_index" value="3" />
@@ -1001,7 +1001,7 @@
 			<string key="Zmienna F" value="93,51999664" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="12" />
-			<string key="concept:name" value="53.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T08:30:00+00:00" />
 			<int key="@@index" value="61" />
 			<int key="@@case_index" value="3" />
@@ -1017,7 +1017,7 @@
 			<string key="Zmienna F" value="97" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="12" />
-			<string key="concept:name" value="35.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T08:40:00+00:00" />
 			<int key="@@index" value="62" />
 			<int key="@@case_index" value="3" />
@@ -1033,7 +1033,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="12" />
-			<string key="concept:name" value="55.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T08:50:00+00:00" />
 			<int key="@@index" value="63" />
 			<int key="@@case_index" value="3" />
@@ -1049,7 +1049,7 @@
 			<string key="Zmienna F" value="100,4800034" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="12" />
-			<string key="concept:name" value="57.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T09:00:00+00:00" />
 			<int key="@@index" value="64" />
 			<int key="@@case_index" value="3" />
@@ -1065,7 +1065,7 @@
 			<string key="Zmienna F" value="91,77999878" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="12" />
-			<string key="concept:name" value="40.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T09:10:00+00:00" />
 			<int key="@@index" value="65" />
 			<int key="@@case_index" value="3" />
@@ -1081,7 +1081,7 @@
 			<string key="Zmienna F" value="100,4800034" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="12" />
-			<string key="concept:name" value="52.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T09:20:00+00:00" />
 			<int key="@@index" value="66" />
 			<int key="@@case_index" value="3" />
@@ -1097,7 +1097,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="12" />
-			<string key="concept:name" value="34.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T09:30:00+00:00" />
 			<int key="@@index" value="67" />
 			<int key="@@case_index" value="3" />
@@ -1113,7 +1113,7 @@
 			<string key="Zmienna F" value="114,4000015" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="12" />
-			<string key="concept:name" value="59.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T09:40:00+00:00" />
 			<int key="@@index" value="68" />
 			<int key="@@case_index" value="3" />
@@ -1129,7 +1129,7 @@
 			<string key="Zmienna F" value="105,6999969" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="12" />
-			<string key="concept:name" value="57.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T09:50:00+00:00" />
 			<int key="@@index" value="69" />
 			<int key="@@case_index" value="3" />
@@ -1145,7 +1145,7 @@
 			<string key="Zmienna F" value="112,6600037" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="12" />
-			<string key="concept:name" value="59.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T10:00:00+00:00" />
 			<int key="@@index" value="70" />
 			<int key="@@case_index" value="3" />
@@ -1161,7 +1161,7 @@
 			<string key="Zmienna F" value="109,1800003" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="12" />
-			<string key="concept:name" value="64.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T10:10:00+00:00" />
 			<int key="@@index" value="71" />
 			<int key="@@case_index" value="3" />
@@ -1177,7 +1177,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="12" />
-			<string key="concept:name" value="32.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T10:20:00+00:00" />
 			<int key="@@index" value="72" />
 			<int key="@@case_index" value="3" />
@@ -1193,7 +1193,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="12" />
-			<string key="concept:name" value="45.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T10:30:00+00:00" />
 			<int key="@@index" value="73" />
 			<int key="@@case_index" value="3" />
@@ -1209,7 +1209,7 @@
 			<string key="Zmienna F" value="88,30000305" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="12" />
-			<string key="concept:name" value="43.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T10:40:00+00:00" />
 			<int key="@@index" value="74" />
 			<int key="@@case_index" value="3" />
@@ -1225,7 +1225,7 @@
 			<string key="Zmienna F" value="97" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="12" />
-			<string key="concept:name" value="56.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T10:50:00+00:00" />
 			<int key="@@index" value="75" />
 			<int key="@@case_index" value="3" />
@@ -1241,7 +1241,7 @@
 			<string key="Zmienna F" value="84,81999969" />
 			<float key="Zmienna G" value="1.0" />
 			<int key="Case ID" value="12" />
-			<string key="concept:name" value="30.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T11:00:00+00:00" />
 			<int key="@@index" value="76" />
 			<int key="@@case_index" value="3" />
@@ -1257,7 +1257,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="12" />
-			<string key="concept:name" value="33.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T11:10:00+00:00" />
 			<int key="@@index" value="77" />
 			<int key="@@case_index" value="3" />
@@ -1273,7 +1273,7 @@
 			<string key="Zmienna F" value="114,4000015" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="12" />
-			<string key="concept:name" value="61.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T11:20:00+00:00" />
 			<int key="@@index" value="78" />
 			<int key="@@case_index" value="3" />
@@ -1292,7 +1292,7 @@
 			<string key="Zmienna F" value="84,81999969" />
 			<float key="Zmienna G" value="1.0" />
 			<int key="Case ID" value="13" />
-			<string key="concept:name" value="28.0" />
+			<string key="concept:name" value="0.0" />
 			<date key="time:timestamp" value="2020-02-01T11:30:00+00:00" />
 			<int key="@@index" value="79" />
 			<int key="@@case_index" value="4" />
@@ -1308,7 +1308,7 @@
 			<string key="Zmienna F" value="91,77999878" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="13" />
-			<string key="concept:name" value="52.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T11:40:00+00:00" />
 			<int key="@@index" value="80" />
 			<int key="@@case_index" value="4" />
@@ -1324,7 +1324,7 @@
 			<string key="Zmienna F" value="103,9599991" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="13" />
-			<string key="concept:name" value="50.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T11:50:00+00:00" />
 			<int key="@@index" value="81" />
 			<int key="@@case_index" value="4" />
@@ -1340,7 +1340,7 @@
 			<string key="Zmienna F" value="86,55999756" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="13" />
-			<string key="concept:name" value="51.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T12:00:00+00:00" />
 			<int key="@@index" value="82" />
 			<int key="@@case_index" value="4" />
@@ -1356,7 +1356,7 @@
 			<string key="Zmienna F" value="97" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="13" />
-			<string key="concept:name" value="63.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T12:10:00+00:00" />
 			<int key="@@index" value="83" />
 			<int key="@@case_index" value="4" />
@@ -1372,7 +1372,7 @@
 			<string key="Zmienna F" value="88,30000305" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="13" />
-			<string key="concept:name" value="63.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T12:20:00+00:00" />
 			<int key="@@index" value="84" />
 			<int key="@@case_index" value="4" />
@@ -1388,7 +1388,7 @@
 			<string key="Zmienna F" value="102,2200012" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="13" />
-			<string key="concept:name" value="63.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T12:30:00+00:00" />
 			<int key="@@index" value="85" />
 			<int key="@@case_index" value="4" />
@@ -1404,7 +1404,7 @@
 			<string key="Zmienna F" value="114,4000015" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="13" />
-			<string key="concept:name" value="66.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T12:40:00+00:00" />
 			<int key="@@index" value="86" />
 			<int key="@@case_index" value="4" />
@@ -1420,7 +1420,7 @@
 			<string key="Zmienna F" value="86,55999756" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="13" />
-			<string key="concept:name" value="55.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T12:50:00+00:00" />
 			<int key="@@index" value="87" />
 			<int key="@@case_index" value="4" />
@@ -1436,7 +1436,7 @@
 			<string key="Zmienna F" value="97" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="13" />
-			<string key="concept:name" value="31.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T13:00:00+00:00" />
 			<int key="@@index" value="88" />
 			<int key="@@case_index" value="4" />
@@ -1452,7 +1452,7 @@
 			<string key="Zmienna F" value="98,73999786" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="13" />
-			<string key="concept:name" value="54.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T13:10:00+00:00" />
 			<int key="@@index" value="89" />
 			<int key="@@case_index" value="4" />
@@ -1468,7 +1468,7 @@
 			<string key="Zmienna F" value="90,04000092" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="13" />
-			<string key="concept:name" value="53.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T13:20:00+00:00" />
 			<int key="@@index" value="90" />
 			<int key="@@case_index" value="4" />
@@ -1484,7 +1484,7 @@
 			<string key="Zmienna F" value="109,1800003" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="13" />
-			<string key="concept:name" value="59.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T13:30:00+00:00" />
 			<int key="@@index" value="91" />
 			<int key="@@case_index" value="4" />
@@ -1500,7 +1500,7 @@
 			<string key="Zmienna F" value="88,30000305" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="13" />
-			<string key="concept:name" value="58.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T13:40:00+00:00" />
 			<int key="@@index" value="92" />
 			<int key="@@case_index" value="4" />
@@ -1516,7 +1516,7 @@
 			<string key="Zmienna F" value="93,51999664" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="13" />
-			<string key="concept:name" value="44.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T13:50:00+00:00" />
 			<int key="@@index" value="93" />
 			<int key="@@case_index" value="4" />
@@ -1535,7 +1535,7 @@
 			<string key="Zmienna F" value="84,81999969" />
 			<float key="Zmienna G" value="1.0" />
 			<int key="Case ID" value="14" />
-			<string key="concept:name" value="31.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T14:00:00+00:00" />
 			<int key="@@index" value="94" />
 			<int key="@@case_index" value="5" />
@@ -1551,7 +1551,7 @@
 			<string key="Zmienna F" value="107,4400024" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="14" />
-			<string key="concept:name" value="66.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T14:10:00+00:00" />
 			<int key="@@index" value="95" />
 			<int key="@@case_index" value="5" />
@@ -1567,7 +1567,7 @@
 			<string key="Zmienna F" value="91,77999878" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="14" />
-			<string key="concept:name" value="51.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T14:20:00+00:00" />
 			<int key="@@index" value="96" />
 			<int key="@@case_index" value="5" />
@@ -1583,7 +1583,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="14" />
-			<string key="concept:name" value="30.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T14:30:00+00:00" />
 			<int key="@@index" value="97" />
 			<int key="@@case_index" value="5" />
@@ -1599,7 +1599,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="14" />
-			<string key="concept:name" value="30.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T14:40:00+00:00" />
 			<int key="@@index" value="98" />
 			<int key="@@case_index" value="5" />
@@ -1615,7 +1615,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="14" />
-			<string key="concept:name" value="27.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T14:50:00+00:00" />
 			<int key="@@index" value="99" />
 			<int key="@@case_index" value="5" />
@@ -1631,7 +1631,7 @@
 			<string key="Zmienna F" value="84,81999969" />
 			<float key="Zmienna G" value="1.0" />
 			<int key="Case ID" value="14" />
-			<string key="concept:name" value="42.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T15:00:00+00:00" />
 			<int key="@@index" value="100" />
 			<int key="@@case_index" value="5" />
@@ -1647,7 +1647,7 @@
 			<string key="Zmienna F" value="88,30000305" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="14" />
-			<string key="concept:name" value="37.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T15:10:00+00:00" />
 			<int key="@@index" value="101" />
 			<int key="@@case_index" value="5" />
@@ -1663,7 +1663,7 @@
 			<string key="Zmienna F" value="86,55999756" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="14" />
-			<string key="concept:name" value="53.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T15:20:00+00:00" />
 			<int key="@@index" value="102" />
 			<int key="@@case_index" value="5" />
@@ -1679,7 +1679,7 @@
 			<string key="Zmienna F" value="97" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="14" />
-			<string key="concept:name" value="30.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T15:30:00+00:00" />
 			<int key="@@index" value="103" />
 			<int key="@@case_index" value="5" />
@@ -1695,7 +1695,7 @@
 			<string key="Zmienna F" value="105,6999969" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="14" />
-			<string key="concept:name" value="67.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T15:40:00+00:00" />
 			<int key="@@index" value="104" />
 			<int key="@@case_index" value="5" />
@@ -1711,7 +1711,7 @@
 			<string key="Zmienna F" value="97" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="14" />
-			<string key="concept:name" value="52.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T15:50:00+00:00" />
 			<int key="@@index" value="105" />
 			<int key="@@case_index" value="5" />
@@ -1727,7 +1727,7 @@
 			<string key="Zmienna F" value="84,81999969" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="14" />
-			<string key="concept:name" value="44.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T16:00:00+00:00" />
 			<int key="@@index" value="106" />
 			<int key="@@case_index" value="5" />
@@ -1743,7 +1743,7 @@
 			<string key="Zmienna F" value="93,51999664" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="14" />
-			<string key="concept:name" value="42.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T16:10:00+00:00" />
 			<int key="@@index" value="107" />
 			<int key="@@case_index" value="5" />
@@ -1759,7 +1759,7 @@
 			<string key="Zmienna F" value="116,1399994" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="14" />
-			<string key="concept:name" value="57.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T16:20:00+00:00" />
 			<int key="@@index" value="108" />
 			<int key="@@case_index" value="5" />
@@ -1775,7 +1775,7 @@
 			<string key="Zmienna F" value="100,4800034" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="14" />
-			<string key="concept:name" value="58.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T16:30:00+00:00" />
 			<int key="@@index" value="109" />
 			<int key="@@case_index" value="5" />
@@ -1791,7 +1791,7 @@
 			<string key="Zmienna F" value="93,51999664" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="14" />
-			<string key="concept:name" value="48.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T16:40:00+00:00" />
 			<int key="@@index" value="110" />
 			<int key="@@case_index" value="5" />
@@ -1810,7 +1810,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="15" />
-			<string key="concept:name" value="54.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T16:50:00+00:00" />
 			<int key="@@index" value="111" />
 			<int key="@@case_index" value="6" />
@@ -1826,7 +1826,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="15" />
-			<string key="concept:name" value="49.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T17:00:00+00:00" />
 			<int key="@@index" value="112" />
 			<int key="@@case_index" value="6" />
@@ -1842,7 +1842,7 @@
 			<string key="Zmienna F" value="91,77999878" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="15" />
-			<string key="concept:name" value="34.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T17:10:00+00:00" />
 			<int key="@@index" value="113" />
 			<int key="@@case_index" value="6" />
@@ -1858,7 +1858,7 @@
 			<string key="Zmienna F" value="84,81999969" />
 			<float key="Zmienna G" value="1.0" />
 			<int key="Case ID" value="15" />
-			<string key="concept:name" value="34.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T17:20:00+00:00" />
 			<int key="@@index" value="114" />
 			<int key="@@case_index" value="6" />
@@ -1874,7 +1874,7 @@
 			<string key="Zmienna F" value="90,04000092" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="15" />
-			<string key="concept:name" value="42.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T17:30:00+00:00" />
 			<int key="@@index" value="115" />
 			<int key="@@case_index" value="6" />
@@ -1890,7 +1890,7 @@
 			<string key="Zmienna F" value="105,6999969" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="15" />
-			<string key="concept:name" value="53.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T17:40:00+00:00" />
 			<int key="@@index" value="116" />
 			<int key="@@case_index" value="6" />
@@ -1906,7 +1906,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="15" />
-			<string key="concept:name" value="52.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T17:50:00+00:00" />
 			<int key="@@index" value="117" />
 			<int key="@@case_index" value="6" />
@@ -1922,7 +1922,7 @@
 			<string key="Zmienna F" value="105,6999969" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="15" />
-			<string key="concept:name" value="66.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T18:00:00+00:00" />
 			<int key="@@index" value="118" />
 			<int key="@@case_index" value="6" />
@@ -1938,7 +1938,7 @@
 			<string key="Zmienna F" value="93,51999664" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="15" />
-			<string key="concept:name" value="58.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T18:10:00+00:00" />
 			<int key="@@index" value="119" />
 			<int key="@@case_index" value="6" />
@@ -1954,7 +1954,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="15" />
-			<string key="concept:name" value="41.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T18:20:00+00:00" />
 			<int key="@@index" value="120" />
 			<int key="@@case_index" value="6" />
@@ -1970,7 +1970,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="15" />
-			<string key="concept:name" value="49.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T18:30:00+00:00" />
 			<int key="@@index" value="121" />
 			<int key="@@case_index" value="6" />
@@ -1986,7 +1986,7 @@
 			<string key="Zmienna F" value="109,1800003" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="15" />
-			<string key="concept:name" value="56.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T18:40:00+00:00" />
 			<int key="@@index" value="122" />
 			<int key="@@case_index" value="6" />
@@ -2002,7 +2002,7 @@
 			<string key="Zmienna F" value="93,51999664" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="15" />
-			<string key="concept:name" value="55.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T18:50:00+00:00" />
 			<int key="@@index" value="123" />
 			<int key="@@case_index" value="6" />
@@ -2018,7 +2018,7 @@
 			<string key="Zmienna F" value="90,04000092" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="15" />
-			<string key="concept:name" value="38.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T19:00:00+00:00" />
 			<int key="@@index" value="124" />
 			<int key="@@case_index" value="6" />
@@ -2034,7 +2034,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="15" />
-			<string key="concept:name" value="42.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T19:10:00+00:00" />
 			<int key="@@index" value="125" />
 			<int key="@@case_index" value="6" />
@@ -2050,7 +2050,7 @@
 			<string key="Zmienna F" value="100,4800034" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="15" />
-			<string key="concept:name" value="54.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T19:20:00+00:00" />
 			<int key="@@index" value="126" />
 			<int key="@@case_index" value="6" />
@@ -2066,7 +2066,7 @@
 			<string key="Zmienna F" value="117,8799973" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="15" />
-			<string key="concept:name" value="57.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T19:30:00+00:00" />
 			<int key="@@index" value="127" />
 			<int key="@@case_index" value="6" />
@@ -2082,7 +2082,7 @@
 			<string key="Zmienna F" value="93,51999664" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="15" />
-			<string key="concept:name" value="33.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T19:40:00+00:00" />
 			<int key="@@index" value="128" />
 			<int key="@@case_index" value="6" />
@@ -2098,7 +2098,7 @@
 			<string key="Zmienna F" value="88,30000305" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="15" />
-			<string key="concept:name" value="63.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T19:50:00+00:00" />
 			<int key="@@index" value="129" />
 			<int key="@@case_index" value="6" />
@@ -2117,7 +2117,7 @@
 			<string key="Zmienna F" value="105,6999969" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="16" />
-			<string key="concept:name" value="62.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T20:00:00+00:00" />
 			<int key="@@index" value="130" />
 			<int key="@@case_index" value="7" />
@@ -2133,7 +2133,7 @@
 			<string key="Zmienna F" value="105,6999969" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="16" />
-			<string key="concept:name" value="60.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T20:10:00+00:00" />
 			<int key="@@index" value="131" />
 			<int key="@@case_index" value="7" />
@@ -2149,7 +2149,7 @@
 			<string key="Zmienna F" value="86,55999756" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="16" />
-			<string key="concept:name" value="66.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T20:20:00+00:00" />
 			<int key="@@index" value="132" />
 			<int key="@@case_index" value="7" />
@@ -2165,7 +2165,7 @@
 			<string key="Zmienna F" value="90,04000092" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="16" />
-			<string key="concept:name" value="43.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T20:30:00+00:00" />
 			<int key="@@index" value="133" />
 			<int key="@@case_index" value="7" />
@@ -2181,7 +2181,7 @@
 			<string key="Zmienna F" value="97" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="16" />
-			<string key="concept:name" value="48.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T20:40:00+00:00" />
 			<int key="@@index" value="134" />
 			<int key="@@case_index" value="7" />
@@ -2197,7 +2197,7 @@
 			<string key="Zmienna F" value="84,81999969" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="16" />
-			<string key="concept:name" value="61.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T20:50:00+00:00" />
 			<int key="@@index" value="135" />
 			<int key="@@case_index" value="7" />
@@ -2213,7 +2213,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="16" />
-			<string key="concept:name" value="46.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T21:00:00+00:00" />
 			<int key="@@index" value="136" />
 			<int key="@@case_index" value="7" />
@@ -2229,7 +2229,7 @@
 			<string key="Zmienna F" value="84,81999969" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="16" />
-			<string key="concept:name" value="61.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T21:10:00+00:00" />
 			<int key="@@index" value="137" />
 			<int key="@@case_index" value="7" />
@@ -2245,7 +2245,7 @@
 			<string key="Zmienna F" value="97" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="16" />
-			<string key="concept:name" value="59.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T21:20:00+00:00" />
 			<int key="@@index" value="138" />
 			<int key="@@case_index" value="7" />
@@ -2261,7 +2261,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="16" />
-			<string key="concept:name" value="41.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T21:30:00+00:00" />
 			<int key="@@index" value="139" />
 			<int key="@@case_index" value="7" />
@@ -2277,7 +2277,7 @@
 			<string key="Zmienna F" value="102,2200012" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="16" />
-			<string key="concept:name" value="57.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T21:40:00+00:00" />
 			<int key="@@index" value="140" />
 			<int key="@@case_index" value="7" />
@@ -2293,7 +2293,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="16" />
-			<string key="concept:name" value="34.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T21:50:00+00:00" />
 			<int key="@@index" value="141" />
 			<int key="@@case_index" value="7" />
@@ -2309,7 +2309,7 @@
 			<string key="Zmienna F" value="107,4400024" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="16" />
-			<string key="concept:name" value="71.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T22:00:00+00:00" />
 			<int key="@@index" value="142" />
 			<int key="@@case_index" value="7" />
@@ -2325,7 +2325,7 @@
 			<string key="Zmienna F" value="97" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="16" />
-			<string key="concept:name" value="42.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T22:10:00+00:00" />
 			<int key="@@index" value="143" />
 			<int key="@@case_index" value="7" />
@@ -2341,7 +2341,7 @@
 			<string key="Zmienna F" value="91,77999878" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="16" />
-			<string key="concept:name" value="38.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T22:20:00+00:00" />
 			<int key="@@index" value="144" />
 			<int key="@@case_index" value="7" />
@@ -2357,7 +2357,7 @@
 			<string key="Zmienna F" value="114,4000015" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="16" />
-			<string key="concept:name" value="59.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T22:30:00+00:00" />
 			<int key="@@index" value="145" />
 			<int key="@@case_index" value="7" />
@@ -2373,7 +2373,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="16" />
-			<string key="concept:name" value="35.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T22:40:00+00:00" />
 			<int key="@@index" value="146" />
 			<int key="@@case_index" value="7" />
@@ -2389,7 +2389,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="16" />
-			<string key="concept:name" value="40.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T22:50:00+00:00" />
 			<int key="@@index" value="147" />
 			<int key="@@case_index" value="7" />
@@ -2405,7 +2405,7 @@
 			<string key="Zmienna F" value="93,51999664" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="16" />
-			<string key="concept:name" value="32.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T23:00:00+00:00" />
 			<int key="@@index" value="148" />
 			<int key="@@case_index" value="7" />
@@ -2421,7 +2421,7 @@
 			<string key="Zmienna F" value="110,9199982" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="16" />
-			<string key="concept:name" value="66.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T23:10:00+00:00" />
 			<int key="@@index" value="149" />
 			<int key="@@case_index" value="7" />
@@ -2437,7 +2437,7 @@
 			<string key="Zmienna F" value="97" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="16" />
-			<string key="concept:name" value="55.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T23:20:00+00:00" />
 			<int key="@@index" value="150" />
 			<int key="@@case_index" value="7" />
@@ -2453,7 +2453,7 @@
 			<string key="Zmienna F" value="93,51999664" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="16" />
-			<string key="concept:name" value="42.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T23:30:00+00:00" />
 			<int key="@@index" value="151" />
 			<int key="@@case_index" value="7" />
@@ -2472,7 +2472,7 @@
 			<string key="Zmienna F" value="110,9199982" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="17" />
-			<string key="concept:name" value="71.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T23:40:00+00:00" />
 			<int key="@@index" value="152" />
 			<int key="@@case_index" value="8" />
@@ -2488,7 +2488,7 @@
 			<string key="Zmienna F" value="102,2200012" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="17" />
-			<string key="concept:name" value="70.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T23:50:00+00:00" />
 			<int key="@@index" value="153" />
 			<int key="@@case_index" value="8" />
@@ -2504,7 +2504,7 @@
 			<string key="Zmienna F" value="105,6999969" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="17" />
-			<string key="concept:name" value="62.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-03-01T00:00:00+00:00" />
 			<int key="@@index" value="154" />
 			<int key="@@case_index" value="8" />
@@ -2520,7 +2520,7 @@
 			<string key="Zmienna F" value="110,9199982" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="17" />
-			<string key="concept:name" value="73.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-03-01T00:10:00+00:00" />
 			<int key="@@index" value="155" />
 			<int key="@@case_index" value="8" />
@@ -2536,7 +2536,7 @@
 			<string key="Zmienna F" value="105,6999969" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="17" />
-			<string key="concept:name" value="64.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-03-01T00:20:00+00:00" />
 			<int key="@@index" value="156" />
 			<int key="@@case_index" value="8" />
@@ -2552,7 +2552,7 @@
 			<string key="Zmienna F" value="116,1399994" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="17" />
-			<string key="concept:name" value="59.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-03-01T00:30:00+00:00" />
 			<int key="@@index" value="157" />
 			<int key="@@case_index" value="8" />
@@ -2568,7 +2568,7 @@
 			<string key="Zmienna F" value="88,30000305" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="17" />
-			<string key="concept:name" value="37.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-03-01T00:40:00+00:00" />
 			<int key="@@index" value="158" />
 			<int key="@@case_index" value="8" />
@@ -2584,7 +2584,7 @@
 			<string key="Zmienna F" value="84,81999969" />
 			<float key="Zmienna G" value="1.0" />
 			<int key="Case ID" value="17" />
-			<string key="concept:name" value="32.0" />
+			<string key="concept:name" value="0.0" />
 			<date key="time:timestamp" value="2020-03-01T00:50:00+00:00" />
 			<int key="@@index" value="159" />
 			<int key="@@case_index" value="8" />
@@ -2600,7 +2600,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="17" />
-			<string key="concept:name" value="41.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-03-01T01:00:00+00:00" />
 			<int key="@@index" value="160" />
 			<int key="@@case_index" value="8" />
@@ -2616,7 +2616,7 @@
 			<string key="Zmienna F" value="90,04000092" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="17" />
-			<string key="concept:name" value="70.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-03-01T01:10:00+00:00" />
 			<int key="@@index" value="161" />
 			<int key="@@case_index" value="8" />
@@ -2632,7 +2632,7 @@
 			<string key="Zmienna F" value="97" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="17" />
-			<string key="concept:name" value="46.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-03-01T01:20:00+00:00" />
 			<int key="@@index" value="162" />
 			<int key="@@case_index" value="8" />
@@ -2648,7 +2648,7 @@
 			<string key="Zmienna F" value="84,81999969" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="17" />
-			<string key="concept:name" value="31.0" />
+			<string key="concept:name" value="0.0" />
 			<date key="time:timestamp" value="2020-03-01T01:30:00+00:00" />
 			<int key="@@index" value="163" />
 			<int key="@@case_index" value="8" />
@@ -2664,7 +2664,7 @@
 			<string key="Zmienna F" value="93,51999664" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="17" />
-			<string key="concept:name" value="32.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-03-01T01:40:00+00:00" />
 			<int key="@@index" value="164" />
 			<int key="@@case_index" value="8" />
@@ -2683,7 +2683,7 @@
 			<string key="Zmienna F" value="88,30000305" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="2" />
-			<string key="concept:name" value="53.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T02:20:00+00:00" />
 			<int key="@@index" value="165" />
 			<int key="@@case_index" value="9" />
@@ -2699,7 +2699,7 @@
 			<string key="Zmienna F" value="97" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="2" />
-			<string key="concept:name" value="43.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T02:30:00+00:00" />
 			<int key="@@index" value="166" />
 			<int key="@@case_index" value="9" />
@@ -2715,7 +2715,7 @@
 			<string key="Zmienna F" value="114,4000015" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="2" />
-			<string key="concept:name" value="59.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T02:40:00+00:00" />
 			<int key="@@index" value="167" />
 			<int key="@@case_index" value="9" />
@@ -2731,7 +2731,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="2" />
-			<string key="concept:name" value="28.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T02:50:00+00:00" />
 			<int key="@@index" value="168" />
 			<int key="@@case_index" value="9" />
@@ -2747,7 +2747,7 @@
 			<string key="Zmienna F" value="98,73999786" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="2" />
-			<string key="concept:name" value="69.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T03:00:00+00:00" />
 			<int key="@@index" value="169" />
 			<int key="@@case_index" value="9" />
@@ -2763,7 +2763,7 @@
 			<string key="Zmienna F" value="91,77999878" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="2" />
-			<string key="concept:name" value="45.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T03:10:00+00:00" />
 			<int key="@@index" value="170" />
 			<int key="@@case_index" value="9" />
@@ -2779,7 +2779,7 @@
 			<string key="Zmienna F" value="93,51999664" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="2" />
-			<string key="concept:name" value="50.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T03:20:00+00:00" />
 			<int key="@@index" value="171" />
 			<int key="@@case_index" value="9" />
@@ -2795,7 +2795,7 @@
 			<string key="Zmienna F" value="84,81999969" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="2" />
-			<string key="concept:name" value="27.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T03:30:00+00:00" />
 			<int key="@@index" value="172" />
 			<int key="@@case_index" value="9" />
@@ -2811,7 +2811,7 @@
 			<string key="Zmienna F" value="84,81999969" />
 			<float key="Zmienna G" value="1.0" />
 			<int key="Case ID" value="2" />
-			<string key="concept:name" value="28.0" />
+			<string key="concept:name" value="0.0" />
 			<date key="time:timestamp" value="2020-01-01T03:40:00+00:00" />
 			<int key="@@index" value="173" />
 			<int key="@@case_index" value="9" />
@@ -2827,7 +2827,7 @@
 			<string key="Zmienna F" value="103,9599991" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="2" />
-			<string key="concept:name" value="52.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T03:50:00+00:00" />
 			<int key="@@index" value="174" />
 			<int key="@@case_index" value="9" />
@@ -2843,7 +2843,7 @@
 			<string key="Zmienna F" value="103,9599991" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="2" />
-			<string key="concept:name" value="67.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T04:00:00+00:00" />
 			<int key="@@index" value="175" />
 			<int key="@@case_index" value="9" />
@@ -2859,7 +2859,7 @@
 			<string key="Zmienna F" value="112,6600037" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="2" />
-			<string key="concept:name" value="64.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T04:10:00+00:00" />
 			<int key="@@index" value="176" />
 			<int key="@@case_index" value="9" />
@@ -2875,7 +2875,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="2" />
-			<string key="concept:name" value="31.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T04:20:00+00:00" />
 			<int key="@@index" value="177" />
 			<int key="@@case_index" value="9" />
@@ -2891,7 +2891,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="2" />
-			<string key="concept:name" value="53.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T04:30:00+00:00" />
 			<int key="@@index" value="178" />
 			<int key="@@case_index" value="9" />
@@ -2907,7 +2907,7 @@
 			<string key="Zmienna F" value="114,4000015" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="2" />
-			<string key="concept:name" value="60.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T04:40:00+00:00" />
 			<int key="@@index" value="179" />
 			<int key="@@case_index" value="9" />
@@ -2923,7 +2923,7 @@
 			<string key="Zmienna F" value="97" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="2" />
-			<string key="concept:name" value="35.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T04:50:00+00:00" />
 			<int key="@@index" value="180" />
 			<int key="@@case_index" value="9" />
@@ -2942,7 +2942,7 @@
 			<string key="Zmienna F" value="91,77999878" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="3" />
-			<string key="concept:name" value="46.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T05:00:00+00:00" />
 			<int key="@@index" value="181" />
 			<int key="@@case_index" value="10" />
@@ -2958,7 +2958,7 @@
 			<string key="Zmienna F" value="86,55999756" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="3" />
-			<string key="concept:name" value="43.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T05:10:00+00:00" />
 			<int key="@@index" value="182" />
 			<int key="@@case_index" value="10" />
@@ -2974,7 +2974,7 @@
 			<string key="Zmienna F" value="84,81999969" />
 			<float key="Zmienna G" value="1.0" />
 			<int key="Case ID" value="3" />
-			<string key="concept:name" value="34.0" />
+			<string key="concept:name" value="0.0" />
 			<date key="time:timestamp" value="2020-01-01T05:20:00+00:00" />
 			<int key="@@index" value="183" />
 			<int key="@@case_index" value="10" />
@@ -2990,7 +2990,7 @@
 			<string key="Zmienna F" value="116,1399994" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="3" />
-			<string key="concept:name" value="55.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T05:30:00+00:00" />
 			<int key="@@index" value="184" />
 			<int key="@@case_index" value="10" />
@@ -3006,7 +3006,7 @@
 			<string key="Zmienna F" value="112,6600037" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="3" />
-			<string key="concept:name" value="59.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T05:40:00+00:00" />
 			<int key="@@index" value="185" />
 			<int key="@@case_index" value="10" />
@@ -3022,7 +3022,7 @@
 			<string key="Zmienna F" value="107,4400024" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="3" />
-			<string key="concept:name" value="47.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T05:50:00+00:00" />
 			<int key="@@index" value="186" />
 			<int key="@@case_index" value="10" />
@@ -3038,7 +3038,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="3" />
-			<string key="concept:name" value="59.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T06:00:00+00:00" />
 			<int key="@@index" value="187" />
 			<int key="@@case_index" value="10" />
@@ -3054,7 +3054,7 @@
 			<string key="Zmienna F" value="109,1800003" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="3" />
-			<string key="concept:name" value="67.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T06:10:00+00:00" />
 			<int key="@@index" value="188" />
 			<int key="@@case_index" value="10" />
@@ -3070,7 +3070,7 @@
 			<string key="Zmienna F" value="117,8799973" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="3" />
-			<string key="concept:name" value="63.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T06:20:00+00:00" />
 			<int key="@@index" value="189" />
 			<int key="@@case_index" value="10" />
@@ -3086,7 +3086,7 @@
 			<string key="Zmienna F" value="102,2200012" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="3" />
-			<string key="concept:name" value="57.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T06:30:00+00:00" />
 			<int key="@@index" value="190" />
 			<int key="@@case_index" value="10" />
@@ -3102,7 +3102,7 @@
 			<string key="Zmienna F" value="93,51999664" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="3" />
-			<string key="concept:name" value="31.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T06:40:00+00:00" />
 			<int key="@@index" value="191" />
 			<int key="@@case_index" value="10" />
@@ -3118,7 +3118,7 @@
 			<string key="Zmienna F" value="88,30000305" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="3" />
-			<string key="concept:name" value="42.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T06:50:00+00:00" />
 			<int key="@@index" value="192" />
 			<int key="@@case_index" value="10" />
@@ -3134,7 +3134,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="3" />
-			<string key="concept:name" value="53.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T07:00:00+00:00" />
 			<int key="@@index" value="193" />
 			<int key="@@case_index" value="10" />
@@ -3150,7 +3150,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="3" />
-			<string key="concept:name" value="52.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T07:10:00+00:00" />
 			<int key="@@index" value="194" />
 			<int key="@@case_index" value="10" />
@@ -3166,7 +3166,7 @@
 			<string key="Zmienna F" value="97" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="3" />
-			<string key="concept:name" value="60.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T07:20:00+00:00" />
 			<int key="@@index" value="195" />
 			<int key="@@case_index" value="10" />
@@ -3182,7 +3182,7 @@
 			<string key="Zmienna F" value="86,55999756" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="3" />
-			<string key="concept:name" value="27.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T07:30:00+00:00" />
 			<int key="@@index" value="196" />
 			<int key="@@case_index" value="10" />
@@ -3201,7 +3201,7 @@
 			<string key="Zmienna F" value="98,73999786" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="4" />
-			<string key="concept:name" value="60.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T07:40:00+00:00" />
 			<int key="@@index" value="197" />
 			<int key="@@case_index" value="11" />
@@ -3217,7 +3217,7 @@
 			<string key="Zmienna F" value="98,73999786" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="4" />
-			<string key="concept:name" value="60.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T07:50:00+00:00" />
 			<int key="@@index" value="198" />
 			<int key="@@case_index" value="11" />
@@ -3233,7 +3233,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="4" />
-			<string key="concept:name" value="29.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T08:00:00+00:00" />
 			<int key="@@index" value="199" />
 			<int key="@@case_index" value="11" />
@@ -3249,7 +3249,7 @@
 			<string key="Zmienna F" value="91,77999878" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="4" />
-			<string key="concept:name" value="51.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T08:10:00+00:00" />
 			<int key="@@index" value="200" />
 			<int key="@@case_index" value="11" />
@@ -3265,7 +3265,7 @@
 			<string key="Zmienna F" value="98,73999786" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="4" />
-			<string key="concept:name" value="68.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T08:20:00+00:00" />
 			<int key="@@index" value="201" />
 			<int key="@@case_index" value="11" />
@@ -3281,7 +3281,7 @@
 			<string key="Zmienna F" value="90,04000092" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="4" />
-			<string key="concept:name" value="42.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T08:30:00+00:00" />
 			<int key="@@index" value="202" />
 			<int key="@@case_index" value="11" />
@@ -3297,7 +3297,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="4" />
-			<string key="concept:name" value="46.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T08:40:00+00:00" />
 			<int key="@@index" value="203" />
 			<int key="@@case_index" value="11" />
@@ -3313,7 +3313,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="4" />
-			<string key="concept:name" value="40.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T08:50:00+00:00" />
 			<int key="@@index" value="204" />
 			<int key="@@case_index" value="11" />
@@ -3329,7 +3329,7 @@
 			<string key="Zmienna F" value="90,04000092" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="4" />
-			<string key="concept:name" value="53.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T09:00:00+00:00" />
 			<int key="@@index" value="205" />
 			<int key="@@case_index" value="11" />
@@ -3345,7 +3345,7 @@
 			<string key="Zmienna F" value="102,2200012" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="4" />
-			<string key="concept:name" value="58.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T09:10:00+00:00" />
 			<int key="@@index" value="206" />
 			<int key="@@case_index" value="11" />
@@ -3361,7 +3361,7 @@
 			<string key="Zmienna F" value="97" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="4" />
-			<string key="concept:name" value="64.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T09:20:00+00:00" />
 			<int key="@@index" value="207" />
 			<int key="@@case_index" value="11" />
@@ -3377,7 +3377,7 @@
 			<string key="Zmienna F" value="117,8799973" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="4" />
-			<string key="concept:name" value="57.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T09:30:00+00:00" />
 			<int key="@@index" value="208" />
 			<int key="@@case_index" value="11" />
@@ -3393,7 +3393,7 @@
 			<string key="Zmienna F" value="83,08000183" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="4" />
-			<string key="concept:name" value="49.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T09:40:00+00:00" />
 			<int key="@@index" value="209" />
 			<int key="@@case_index" value="11" />
@@ -3409,7 +3409,7 @@
 			<string key="Zmienna F" value="97" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="4" />
-			<string key="concept:name" value="28.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T09:50:00+00:00" />
 			<int key="@@index" value="210" />
 			<int key="@@case_index" value="11" />
@@ -3425,7 +3425,7 @@
 			<string key="Zmienna F" value="112,6600037" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="4" />
-			<string key="concept:name" value="65.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T10:00:00+00:00" />
 			<int key="@@index" value="211" />
 			<int key="@@case_index" value="11" />
@@ -3444,7 +3444,7 @@
 			<string key="Zmienna F" value="90,04000092" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="5" />
-			<string key="concept:name" value="45.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T10:10:00+00:00" />
 			<int key="@@index" value="212" />
 			<int key="@@case_index" value="12" />
@@ -3460,7 +3460,7 @@
 			<string key="Zmienna F" value="98,73999786" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="5" />
-			<string key="concept:name" value="74.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T10:20:00+00:00" />
 			<int key="@@index" value="213" />
 			<int key="@@case_index" value="12" />
@@ -3476,7 +3476,7 @@
 			<string key="Zmienna F" value="114,4000015" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="5" />
-			<string key="concept:name" value="57.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T10:30:00+00:00" />
 			<int key="@@index" value="214" />
 			<int key="@@case_index" value="12" />
@@ -3492,7 +3492,7 @@
 			<string key="Zmienna F" value="112,6600037" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="5" />
-			<string key="concept:name" value="64.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T10:40:00+00:00" />
 			<int key="@@index" value="215" />
 			<int key="@@case_index" value="12" />
@@ -3508,7 +3508,7 @@
 			<string key="Zmienna F" value="109,1800003" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="5" />
-			<string key="concept:name" value="60.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T10:50:00+00:00" />
 			<int key="@@index" value="216" />
 			<int key="@@case_index" value="12" />
@@ -3524,7 +3524,7 @@
 			<string key="Zmienna F" value="93,51999664" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="5" />
-			<string key="concept:name" value="49.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T11:00:00+00:00" />
 			<int key="@@index" value="217" />
 			<int key="@@case_index" value="12" />
@@ -3540,7 +3540,7 @@
 			<string key="Zmienna F" value="91,77999878" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="5" />
-			<string key="concept:name" value="52.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T11:10:00+00:00" />
 			<int key="@@index" value="218" />
 			<int key="@@case_index" value="12" />
@@ -3556,7 +3556,7 @@
 			<string key="Zmienna F" value="86,55999756" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="5" />
-			<string key="concept:name" value="40.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T11:20:00+00:00" />
 			<int key="@@index" value="219" />
 			<int key="@@case_index" value="12" />
@@ -3572,7 +3572,7 @@
 			<string key="Zmienna F" value="93,51999664" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="5" />
-			<string key="concept:name" value="43.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T11:30:00+00:00" />
 			<int key="@@index" value="220" />
 			<int key="@@case_index" value="12" />
@@ -3588,7 +3588,7 @@
 			<string key="Zmienna F" value="114,4000015" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="5" />
-			<string key="concept:name" value="59.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T11:40:00+00:00" />
 			<int key="@@index" value="221" />
 			<int key="@@case_index" value="12" />
@@ -3604,7 +3604,7 @@
 			<string key="Zmienna F" value="100,4800034" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="5" />
-			<string key="concept:name" value="69.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T11:50:00+00:00" />
 			<int key="@@index" value="222" />
 			<int key="@@case_index" value="12" />
@@ -3620,7 +3620,7 @@
 			<string key="Zmienna F" value="97" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="5" />
-			<string key="concept:name" value="28.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T12:00:00+00:00" />
 			<int key="@@index" value="223" />
 			<int key="@@case_index" value="12" />
@@ -3636,7 +3636,7 @@
 			<string key="Zmienna F" value="91,77999878" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="5" />
-			<string key="concept:name" value="56.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T12:10:00+00:00" />
 			<int key="@@index" value="224" />
 			<int key="@@case_index" value="12" />
@@ -3652,7 +3652,7 @@
 			<string key="Zmienna F" value="93,51999664" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="5" />
-			<string key="concept:name" value="37.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T12:20:00+00:00" />
 			<int key="@@index" value="225" />
 			<int key="@@case_index" value="12" />
@@ -3668,7 +3668,7 @@
 			<string key="Zmienna F" value="84,81999969" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="5" />
-			<string key="concept:name" value="31.0" />
+			<string key="concept:name" value="0.0" />
 			<date key="time:timestamp" value="2020-01-01T12:30:00+00:00" />
 			<int key="@@index" value="226" />
 			<int key="@@case_index" value="12" />
@@ -3684,7 +3684,7 @@
 			<string key="Zmienna F" value="90,04000092" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="5" />
-			<string key="concept:name" value="53.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T12:40:00+00:00" />
 			<int key="@@index" value="227" />
 			<int key="@@case_index" value="12" />
@@ -3700,7 +3700,7 @@
 			<string key="Zmienna F" value="93,51999664" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="5" />
-			<string key="concept:name" value="27.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T12:50:00+00:00" />
 			<int key="@@index" value="228" />
 			<int key="@@case_index" value="12" />
@@ -3716,7 +3716,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="5" />
-			<string key="concept:name" value="40.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T13:00:00+00:00" />
 			<int key="@@index" value="229" />
 			<int key="@@case_index" value="12" />
@@ -3735,7 +3735,7 @@
 			<string key="Zmienna F" value="86,55999756" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="6" />
-			<string key="concept:name" value="66.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T13:10:00+00:00" />
 			<int key="@@index" value="230" />
 			<int key="@@case_index" value="13" />
@@ -3751,7 +3751,7 @@
 			<string key="Zmienna F" value="107,4400024" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="6" />
-			<string key="concept:name" value="59.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T13:20:00+00:00" />
 			<int key="@@index" value="231" />
 			<int key="@@case_index" value="13" />
@@ -3767,7 +3767,7 @@
 			<string key="Zmienna F" value="83,08000183" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="6" />
-			<string key="concept:name" value="42.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T13:30:00+00:00" />
 			<int key="@@index" value="232" />
 			<int key="@@case_index" value="13" />
@@ -3783,7 +3783,7 @@
 			<string key="Zmienna F" value="86,55999756" />
 			<float key="Zmienna G" value="1.0" />
 			<int key="Case ID" value="6" />
-			<string key="concept:name" value="53.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T13:40:00+00:00" />
 			<int key="@@index" value="233" />
 			<int key="@@case_index" value="13" />
@@ -3799,7 +3799,7 @@
 			<string key="Zmienna F" value="97" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="6" />
-			<string key="concept:name" value="34.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T13:50:00+00:00" />
 			<int key="@@index" value="234" />
 			<int key="@@case_index" value="13" />
@@ -3815,7 +3815,7 @@
 			<string key="Zmienna F" value="97" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="6" />
-			<string key="concept:name" value="57.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T14:00:00+00:00" />
 			<int key="@@index" value="235" />
 			<int key="@@case_index" value="13" />
@@ -3831,7 +3831,7 @@
 			<string key="Zmienna F" value="91,77999878" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="6" />
-			<string key="concept:name" value="34.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T14:10:00+00:00" />
 			<int key="@@index" value="236" />
 			<int key="@@case_index" value="13" />
@@ -3847,7 +3847,7 @@
 			<string key="Zmienna F" value="93,51999664" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="6" />
-			<string key="concept:name" value="54.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T14:20:00+00:00" />
 			<int key="@@index" value="237" />
 			<int key="@@case_index" value="13" />
@@ -3863,7 +3863,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="6" />
-			<string key="concept:name" value="34.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T14:30:00+00:00" />
 			<int key="@@index" value="238" />
 			<int key="@@case_index" value="13" />
@@ -3879,7 +3879,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="6" />
-			<string key="concept:name" value="29.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T14:40:00+00:00" />
 			<int key="@@index" value="239" />
 			<int key="@@case_index" value="13" />
@@ -3895,7 +3895,7 @@
 			<string key="Zmienna F" value="97" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="6" />
-			<string key="concept:name" value="58.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T14:50:00+00:00" />
 			<int key="@@index" value="240" />
 			<int key="@@case_index" value="13" />
@@ -3911,7 +3911,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="6" />
-			<string key="concept:name" value="30.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T15:00:00+00:00" />
 			<int key="@@index" value="241" />
 			<int key="@@case_index" value="13" />
@@ -3930,7 +3930,7 @@
 			<string key="Zmienna F" value="105,6999969" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="7" />
-			<string key="concept:name" value="58.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T15:10:00+00:00" />
 			<int key="@@index" value="242" />
 			<int key="@@case_index" value="14" />
@@ -3946,7 +3946,7 @@
 			<string key="Zmienna F" value="86,55999756" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="7" />
-			<string key="concept:name" value="31.0" />
+			<string key="concept:name" value="0.0" />
 			<date key="time:timestamp" value="2020-01-01T15:20:00+00:00" />
 			<int key="@@index" value="243" />
 			<int key="@@case_index" value="14" />
@@ -3962,7 +3962,7 @@
 			<string key="Zmienna F" value="91,77999878" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="7" />
-			<string key="concept:name" value="46.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T15:30:00+00:00" />
 			<int key="@@index" value="244" />
 			<int key="@@case_index" value="14" />
@@ -3978,7 +3978,7 @@
 			<string key="Zmienna F" value="107,4400024" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="7" />
-			<string key="concept:name" value="60.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T15:40:00+00:00" />
 			<int key="@@index" value="245" />
 			<int key="@@case_index" value="14" />
@@ -3994,7 +3994,7 @@
 			<string key="Zmienna F" value="90,04000092" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="7" />
-			<string key="concept:name" value="53.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T15:50:00+00:00" />
 			<int key="@@index" value="246" />
 			<int key="@@case_index" value="14" />
@@ -4010,7 +4010,7 @@
 			<string key="Zmienna F" value="86,55999756" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="7" />
-			<string key="concept:name" value="45.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T16:00:00+00:00" />
 			<int key="@@index" value="247" />
 			<int key="@@case_index" value="14" />
@@ -4026,7 +4026,7 @@
 			<string key="Zmienna F" value="98,73999786" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="7" />
-			<string key="concept:name" value="53.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T16:10:00+00:00" />
 			<int key="@@index" value="248" />
 			<int key="@@case_index" value="14" />
@@ -4042,7 +4042,7 @@
 			<string key="Zmienna F" value="86,55999756" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="7" />
-			<string key="concept:name" value="49.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T16:20:00+00:00" />
 			<int key="@@index" value="249" />
 			<int key="@@case_index" value="14" />
@@ -4058,7 +4058,7 @@
 			<string key="Zmienna F" value="90,04000092" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="7" />
-			<string key="concept:name" value="52.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T16:30:00+00:00" />
 			<int key="@@index" value="250" />
 			<int key="@@case_index" value="14" />
@@ -4074,7 +4074,7 @@
 			<string key="Zmienna F" value="86,55999756" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="7" />
-			<string key="concept:name" value="47.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T16:40:00+00:00" />
 			<int key="@@index" value="251" />
 			<int key="@@case_index" value="14" />
@@ -4090,7 +4090,7 @@
 			<string key="Zmienna F" value="86,55999756" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="7" />
-			<string key="concept:name" value="49.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T16:50:00+00:00" />
 			<int key="@@index" value="252" />
 			<int key="@@case_index" value="14" />
@@ -4106,7 +4106,7 @@
 			<string key="Zmienna F" value="90,04000092" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="7" />
-			<string key="concept:name" value="47.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T17:00:00+00:00" />
 			<int key="@@index" value="253" />
 			<int key="@@case_index" value="14" />
@@ -4122,7 +4122,7 @@
 			<string key="Zmienna F" value="117,8799973" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="7" />
-			<string key="concept:name" value="61.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T17:10:00+00:00" />
 			<int key="@@index" value="254" />
 			<int key="@@case_index" value="14" />
@@ -4138,7 +4138,7 @@
 			<string key="Zmienna F" value="97" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="7" />
-			<string key="concept:name" value="59.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T17:20:00+00:00" />
 			<int key="@@index" value="255" />
 			<int key="@@case_index" value="14" />
@@ -4154,7 +4154,7 @@
 			<string key="Zmienna F" value="84,81999969" />
 			<float key="Zmienna G" value="1.0" />
 			<int key="Case ID" value="7" />
-			<string key="concept:name" value="33.0" />
+			<string key="concept:name" value="0.0" />
 			<date key="time:timestamp" value="2020-01-01T17:30:00+00:00" />
 			<int key="@@index" value="256" />
 			<int key="@@case_index" value="14" />
@@ -4170,7 +4170,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="7" />
-			<string key="concept:name" value="28.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T17:40:00+00:00" />
 			<int key="@@index" value="257" />
 			<int key="@@case_index" value="14" />
@@ -4186,7 +4186,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="7" />
-			<string key="concept:name" value="30.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T17:50:00+00:00" />
 			<int key="@@index" value="258" />
 			<int key="@@case_index" value="14" />
@@ -4202,7 +4202,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="7" />
-			<string key="concept:name" value="30.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T18:00:00+00:00" />
 			<int key="@@index" value="259" />
 			<int key="@@case_index" value="14" />
@@ -4218,7 +4218,7 @@
 			<string key="Zmienna F" value="98,73999786" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="7" />
-			<string key="concept:name" value="63.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T18:10:00+00:00" />
 			<int key="@@index" value="260" />
 			<int key="@@case_index" value="14" />
@@ -4234,7 +4234,7 @@
 			<string key="Zmienna F" value="114,4000015" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="7" />
-			<string key="concept:name" value="55.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T18:20:00+00:00" />
 			<int key="@@index" value="261" />
 			<int key="@@case_index" value="14" />
@@ -4250,7 +4250,7 @@
 			<string key="Zmienna F" value="91,77999878" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="7" />
-			<string key="concept:name" value="37.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T18:30:00+00:00" />
 			<int key="@@index" value="262" />
 			<int key="@@case_index" value="14" />
@@ -4266,7 +4266,7 @@
 			<string key="Zmienna F" value="86,55999756" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="7" />
-			<string key="concept:name" value="53.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T18:40:00+00:00" />
 			<int key="@@index" value="263" />
 			<int key="@@case_index" value="14" />
@@ -4282,7 +4282,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="7" />
-			<string key="concept:name" value="63.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T18:50:00+00:00" />
 			<int key="@@index" value="264" />
 			<int key="@@case_index" value="14" />
@@ -4298,7 +4298,7 @@
 			<string key="Zmienna F" value="97" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="7" />
-			<string key="concept:name" value="31.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T19:00:00+00:00" />
 			<int key="@@index" value="265" />
 			<int key="@@case_index" value="14" />
@@ -4314,7 +4314,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="7" />
-			<string key="concept:name" value="56.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T19:10:00+00:00" />
 			<int key="@@index" value="266" />
 			<int key="@@case_index" value="14" />
@@ -4333,7 +4333,7 @@
 			<string key="Zmienna F" value="84,81999969" />
 			<float key="Zmienna G" value="1.0" />
 			<int key="Case ID" value="8" />
-			<string key="concept:name" value="49.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T19:20:00+00:00" />
 			<int key="@@index" value="267" />
 			<int key="@@case_index" value="15" />
@@ -4349,7 +4349,7 @@
 			<string key="Zmienna F" value="102,2200012" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="8" />
-			<string key="concept:name" value="70.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T19:30:00+00:00" />
 			<int key="@@index" value="268" />
 			<int key="@@case_index" value="15" />
@@ -4365,7 +4365,7 @@
 			<string key="Zmienna F" value="84,81999969" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="8" />
-			<string key="concept:name" value="34.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T19:40:00+00:00" />
 			<int key="@@index" value="269" />
 			<int key="@@case_index" value="15" />
@@ -4381,7 +4381,7 @@
 			<string key="Zmienna F" value="114,4000015" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="8" />
-			<string key="concept:name" value="59.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T19:50:00+00:00" />
 			<int key="@@index" value="270" />
 			<int key="@@case_index" value="15" />
@@ -4397,7 +4397,7 @@
 			<string key="Zmienna F" value="97" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="8" />
-			<string key="concept:name" value="43.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T20:00:00+00:00" />
 			<int key="@@index" value="271" />
 			<int key="@@case_index" value="15" />
@@ -4413,7 +4413,7 @@
 			<string key="Zmienna F" value="84,81999969" />
 			<float key="Zmienna G" value="1.0" />
 			<int key="Case ID" value="8" />
-			<string key="concept:name" value="34.0" />
+			<string key="concept:name" value="0.0" />
 			<date key="time:timestamp" value="2020-01-01T20:10:00+00:00" />
 			<int key="@@index" value="272" />
 			<int key="@@case_index" value="15" />
@@ -4429,7 +4429,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="8" />
-			<string key="concept:name" value="52.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T20:20:00+00:00" />
 			<int key="@@index" value="273" />
 			<int key="@@case_index" value="15" />
@@ -4445,7 +4445,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="8" />
-			<string key="concept:name" value="32.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T20:30:00+00:00" />
 			<int key="@@index" value="274" />
 			<int key="@@case_index" value="15" />
@@ -4461,7 +4461,7 @@
 			<string key="Zmienna F" value="110,9199982" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="8" />
-			<string key="concept:name" value="59.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T20:40:00+00:00" />
 			<int key="@@index" value="275" />
 			<int key="@@case_index" value="15" />
@@ -4477,7 +4477,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="8" />
-			<string key="concept:name" value="62.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T20:50:00+00:00" />
 			<int key="@@index" value="276" />
 			<int key="@@case_index" value="15" />
@@ -4493,7 +4493,7 @@
 			<string key="Zmienna F" value="91,77999878" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="8" />
-			<string key="concept:name" value="34.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T21:00:00+00:00" />
 			<int key="@@index" value="277" />
 			<int key="@@case_index" value="15" />
@@ -4509,7 +4509,7 @@
 			<string key="Zmienna F" value="90,04000092" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="8" />
-			<string key="concept:name" value="39.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T21:10:00+00:00" />
 			<int key="@@index" value="278" />
 			<int key="@@case_index" value="15" />
@@ -4525,7 +4525,7 @@
 			<string key="Zmienna F" value="97" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="8" />
-			<string key="concept:name" value="68.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T21:20:00+00:00" />
 			<int key="@@index" value="279" />
 			<int key="@@case_index" value="15" />
@@ -4541,7 +4541,7 @@
 			<string key="Zmienna F" value="91,77999878" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="8" />
-			<string key="concept:name" value="52.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T21:30:00+00:00" />
 			<int key="@@index" value="280" />
 			<int key="@@case_index" value="15" />
@@ -4557,7 +4557,7 @@
 			<string key="Zmienna F" value="88,30000305" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="8" />
-			<string key="concept:name" value="58.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T21:40:00+00:00" />
 			<int key="@@index" value="281" />
 			<int key="@@case_index" value="15" />
@@ -4573,7 +4573,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="8" />
-			<string key="concept:name" value="58.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T21:50:00+00:00" />
 			<int key="@@index" value="282" />
 			<int key="@@case_index" value="15" />
@@ -4589,7 +4589,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="8" />
-			<string key="concept:name" value="33.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T22:00:00+00:00" />
 			<int key="@@index" value="283" />
 			<int key="@@case_index" value="15" />
@@ -4608,7 +4608,7 @@
 			<string key="Zmienna F" value="103,9599991" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="9" />
-			<string key="concept:name" value="47.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T22:10:00+00:00" />
 			<int key="@@index" value="284" />
 			<int key="@@case_index" value="16" />
@@ -4624,7 +4624,7 @@
 			<string key="Zmienna F" value="114,4000015" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="9" />
-			<string key="concept:name" value="70.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T22:20:00+00:00" />
 			<int key="@@index" value="285" />
 			<int key="@@case_index" value="16" />
@@ -4640,7 +4640,7 @@
 			<string key="Zmienna F" value="91,77999878" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="9" />
-			<string key="concept:name" value="46.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T22:30:00+00:00" />
 			<int key="@@index" value="286" />
 			<int key="@@case_index" value="16" />
@@ -4656,7 +4656,7 @@
 			<string key="Zmienna F" value="88,30000305" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="9" />
-			<string key="concept:name" value="51.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T22:40:00+00:00" />
 			<int key="@@index" value="287" />
 			<int key="@@case_index" value="16" />
@@ -4672,7 +4672,7 @@
 			<string key="Zmienna F" value="97" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="9" />
-			<string key="concept:name" value="35.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T22:50:00+00:00" />
 			<int key="@@index" value="288" />
 			<int key="@@case_index" value="16" />
@@ -4688,7 +4688,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="9" />
-			<string key="concept:name" value="49.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T23:00:00+00:00" />
 			<int key="@@index" value="289" />
 			<int key="@@case_index" value="16" />
@@ -4704,7 +4704,7 @@
 			<string key="Zmienna F" value="105,6999969" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="9" />
-			<string key="concept:name" value="55.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T23:10:00+00:00" />
 			<int key="@@index" value="290" />
 			<int key="@@case_index" value="16" />
@@ -4720,7 +4720,7 @@
 			<string key="Zmienna F" value="93,51999664" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="9" />
-			<string key="concept:name" value="55.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T23:20:00+00:00" />
 			<int key="@@index" value="291" />
 			<int key="@@case_index" value="16" />
@@ -4736,7 +4736,7 @@
 			<string key="Zmienna F" value="91,77999878" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="9" />
-			<string key="concept:name" value="45.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T23:30:00+00:00" />
 			<int key="@@index" value="292" />
 			<int key="@@case_index" value="16" />
@@ -4752,7 +4752,7 @@
 			<string key="Zmienna F" value="97" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="9" />
-			<string key="concept:name" value="59.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T23:40:00+00:00" />
 			<int key="@@index" value="293" />
 			<int key="@@case_index" value="16" />
@@ -4768,7 +4768,7 @@
 			<string key="Zmienna F" value="95,26000214" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="9" />
-			<string key="concept:name" value="31.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-01-01T23:50:00+00:00" />
 			<int key="@@index" value="294" />
 			<int key="@@case_index" value="16" />
@@ -4784,7 +4784,7 @@
 			<string key="Zmienna F" value="93,51999664" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="9" />
-			<string key="concept:name" value="40.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T00:00:00+00:00" />
 			<int key="@@index" value="295" />
 			<int key="@@case_index" value="16" />
@@ -4800,7 +4800,7 @@
 			<string key="Zmienna F" value="84,81999969" />
 			<float key="Zmienna G" value="1.0" />
 			<int key="Case ID" value="9" />
-			<string key="concept:name" value="42.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T00:10:00+00:00" />
 			<int key="@@index" value="296" />
 			<int key="@@case_index" value="16" />
@@ -4816,7 +4816,7 @@
 			<string key="Zmienna F" value="90,04000092" />
 			<float key="Zmienna G" value="0.0" />
 			<int key="Case ID" value="9" />
-			<string key="concept:name" value="47.0" />
+			<string key="concept:name" value="1.0" />
 			<date key="time:timestamp" value="2020-02-01T00:30:00+00:00" />
 			<int key="@@index" value="297" />
 			<int key="@@case_index" value="16" />
