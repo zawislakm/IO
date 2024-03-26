@@ -18,7 +18,7 @@ class CSVColumn(BaseModel):
 
 class DependencyModel(BaseModel):
     firstVariableName: str
-    secondVariableName: str | int
+    secondVariableName: str
     dependency: str
 
     def get_dependency(self) -> str:
