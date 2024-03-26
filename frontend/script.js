@@ -103,24 +103,12 @@ function getCSVHeaders() {
   })
   .then(data => {
     csvHeaders = data; // Dostajemy liste elementow column_index i name
-    displayCSVHeaders();
     updateSelectLists();
   })
   .catch(error => {
     console.error('Błąd:', error);
     alert(error.message);
   });
-}
-
-function displayCSVHeaders() {
-    const headersList = document.getElementById('csvHeadersList');
-    headersList.innerHTML = '';
-
-    csvHeaders.forEach(header => {
-        const li = document.createElement('li');
-        li.textContent = `${header.column_index}: ${header.name}`;
-        headersList.appendChild(li);
-    });
 }
 
 function updateSelectList(selectElement) {
