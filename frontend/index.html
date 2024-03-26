@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Przesyłanie pliku CSV</title>
 <style>
+  #visualisation {
+    display: none;
+  }
   #tableContainer {
     max-height: 400px;
     overflow: auto;
@@ -104,10 +107,14 @@
 
   <button type="button" onclick="addLabels()">Dodaj oznaczenia</button><br>
 
+</form>
+
 <h2>Oznaczenia</h2>
 
 <ul id="labelsList"></ul>
-</form>
+
+<button type="button" onclick="showVisualisation()">Wizualizacja</button>
+<img id="visualisation" src="" alt="visualisation">
 
 <script src="script.js"></script>
 </body>

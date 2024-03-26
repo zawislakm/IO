@@ -331,7 +331,40 @@ function addLabels() {
   document.getElementById('labelForm').reset();
 }
 
+// GET VISUALISATION
 
+function showVisualisation() {
+    if (eventLog === undefined) {
+        alert("Brak dodanych oznaczeń.");
+        return;
+    }
+
+    fetch('http://127.0.0.1:8000/variable/visualize/' + fileName, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(eventLog)
+    })
+    .then(response => {
+        if (response.ok) {
+            return response.blob();
+        } else {
+            throw new Error("Wystąpił błąd podczas ładowania wizualizacji.");
+        }
+    })
+    .then(blob => {
+        const url = URL.createObjectURL(blob);
+        const imgElement = document.getElementById('visualisation');
+        imgElement.src = url;
+        imgElement.style.display = 'block';
+        alert("Wizualizacja została pomyślnie załadowana.");
+    })
+    .catch(error => {
+        console.error('Błąd:', error);
+        alert(error.message);
+    });
+}
 
 
 
