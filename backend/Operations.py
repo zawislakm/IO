@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import pandas.core.series
 import pm4py
-from sklearn.cluster import DBSCAN
+from sklearn.cluster import DBSCAN,KMeans
 from sympy import sympify
 
 from Models import CSVColumn, EventLog, VariableModel, DependencyModel
@@ -61,18 +61,47 @@ def calc_cluster_stats(path: str, event_log: EventLog):
 
     feature = df.iloc[:, event_log.cluster:event_log.cluster + 1]
 
-    dbscan = DBSCAN(eps=1, min_samples=5)
-    dbscan.fit(feature)
+    kmeans = KMeans(n_clusters=3)
+    kmeans.fit(feature)
 
-    df['Cluster'] = dbscan.labels_
+    df['Cluster'] = kmeans.labels_
 
-    class_1 = df['Cluster']
-    class_2 = df[df.columns[event_log.action]].astype(float).round(2)
+    cluster_counts = df.groupby('Cluster').size()
+    total_samples = len(df)
+    activity_percentages = {}
+    for cluster, count in cluster_counts.items():
+        cluster_data = df[df['Cluster'] == cluster]
+        activity_counts = cluster_data.iloc[:, event_log.action].value_counts()
+        activity_percentages[cluster] = activity_counts * 100 / count
 
-    plt.scatter(class_1, class_2, c=df['Cluster'], cmap='viridis')
-    plt.xlabel('Cluster')
-    plt.ylabel('Activity')
-    plt.title('DBSCAN Clustering')
+    unique_activities = df.iloc[:, event_log.action].unique()
+    num_activities = len(unique_activities)
+    cluster_labels = sorted(activity_percentages.keys())
+    cluster_activities = {cluster: {activity: 0 for activity in unique_activities} for cluster in cluster_labels}
+
+    for cluster, percentages in activity_percentages.items():
+        for activity, percentage in percentages.items():
+            cluster_activities[cluster][activity] = percentage
+
+    bar_width = 0.3
+    fig, ax = plt.subplots(figsize=(10, 6))
+    for i, (cluster, activities) in enumerate(cluster_activities.items()):
+        positions = range(len(activities))
+        bars = ax.bar([pos + i * bar_width for pos in positions], activities.values(), bar_width,
+                      label=f'Cluster {cluster}')
+        for bar in bars:
+            height = bar.get_height()
+            ax.annotate(f'{height:.2f}%', xy=(bar.get_x() + bar.get_width() / 2, height),
+                        xytext=(0, 3), textcoords='offset points', ha='center', va='bottom')
+
+    ax.set_xlabel('Activity')
+    ax.set_ylabel('Percentage')
+    ax.set_title('Activity Distribution Across Clusters')
+    ax.set_xticks([pos + bar_width for pos in range(num_activities)])
+    ax.set_xticklabels(unique_activities)
+    ax.legend()
+    plt.xticks(rotation=45)
+    plt.tight_layout()
     path_c = "clustering/" + os.path.basename(path)[:-4] + '.jpg'
     plt.savefig(path_c)
 
