@@ -110,6 +110,9 @@ def visualize_process(path: str, event_log: EventLog):
     df = pd.read_csv(path, sep=";")
     df = df.dropna()
 
+    df = df[df[df.columns[event_log.action]] != df[df.columns[event_log.action]].shift()]
+    df.reset_index(drop=True, inplace=True)
+
     df = pm4py.format_dataframe(df, case_id=df.columns[event_log.case_ID],
                                 activity_key=df.columns[event_log.action],
                                 timestamp_key=df.columns[event_log.timestamp])
@@ -118,10 +121,14 @@ def visualize_process(path: str, event_log: EventLog):
     path_xes = "xes files/" + os.path.basename(path)[:-4]
     pm4py.write_xes(e_log, path_xes)
 
-    path_svg = "images/" + os.path.basename(path)[:-4] + ".png"
+    path_dfg = "dfg/" + os.path.basename(path)[:-4] + ".png"
     dfg, start_activities, end_activities = pm4py.discover_dfg(e_log)
-    pm4py.save_vis_dfg(dfg, start_activities, end_activities, path_svg)
+    pm4py.save_vis_dfg(dfg, start_activities, end_activities, path_dfg)
 
+    process_tree = pm4py.discover_process_tree_inductive(e_log)
+    petri_net , initial_marking , final_marking = pm4py. convert_to_petri_net(process_tree)
+    path_petri = "petri_net/" + os.path.basename(path)[:-4] + ".png"
+    pm4py.save_vis_petri_net(petri_net, initial_marking, final_marking, path_petri)
 
 if __name__ == "__main__":
     path = 'uploaded_files/Zeszyt1_akt_pm.csv'
